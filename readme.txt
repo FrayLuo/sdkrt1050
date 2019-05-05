@@ -1,3 +1,2 @@
-Git is a version control system.
-Git is free software.
-1111111
+SDK_2.4.0_EVKB-IMXRT1050
+ALL IDE

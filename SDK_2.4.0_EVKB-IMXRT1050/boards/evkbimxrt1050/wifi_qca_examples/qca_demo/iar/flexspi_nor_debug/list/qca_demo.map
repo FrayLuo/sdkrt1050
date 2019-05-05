@@ -1,0 +1,2079 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  29/Apr/2019  10:02:32
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\qca_demo.out
+#    Map file     =  
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\list\qca_demo.map
+#    Command line =  
+#        -f C:\Users\nxf53652\AppData\Local\Temp\4\EW20A.tmp
+#        (C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\api_init.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\api_ioctl.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\api_stack_offload.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\api_txrx.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\api_wmi_rx.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\bmi.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\board.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\clock_config.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_api_init.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_api_ioctl.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_api_stack_offload.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_api_stack_txrx.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_api_txrx.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_api_wmi_rx.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_driver_main.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_driver_netbuf.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\cust_spi_hcd.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\custom_qcom_api.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\driver_diag.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\driver_init.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\driver_main.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\driver_netbuf.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\driver_txrx.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\dset.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\dset_api.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\event_groups.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\evkbimxrt1050_flexspi_nor_config.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\evkbimxrt1050_sdram_ini_dcd.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_assert.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_clock.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_common.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_debug_console.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_dmamux.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_edma.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_flexspi_nor_boot.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_gpio.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_io.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_log.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_lpspi.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_lpspi_edma.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_lpuart.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_str.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\fsl_tickless_systick.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\heap_4.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\htc.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\hw_api.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\list.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\main.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\pin_mux.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\port.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\portasm.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\qcom_api.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\qcom_dns.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\qcom_legacy.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\queue.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\rcv_aggr.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\spi_hcd.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\startup_MIMXRT1052.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\storerecall.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\stream_buffer.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\system_MIMXRT1052.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\tasks.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\timers.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\util.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\wifi_env.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\wifi_shield.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\wifi_spi.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\wlan_qca400x.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\wlan_qcom.o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj\wmi.o
+#        --redirect _Printf=_PrintfSmallNoMb --redirect _Scanf=_ScanfSmallNoMb
+#        --no_out_extension -o
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\qca_demo.out
+#        --map
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\list\qca_demo.map
+#        --config
+#        C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar/MIMXRT1052xxxxx_flexspi_nor.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x6000'2000 { ro section .intvec };
+"A1":  place at 0x6000'0000 { section .boot_hdr.conf };
+"A2":  place at 0x6000'1000 { section .boot_hdr.ivt };
+"A3":  place at 0x6000'1020 { ro section .boot_hdr.boot_data };
+"A4":  place at 0x6000'1030 { ro section .boot_hdr.dcd_data };
+"P1":  place in [from 0x6000'2000 to 0x6000'23ff] |
+                [from 0x6000'2400 to 0x63ff'ffff] { ro };
+define block RW { rw };
+"P2":  place in [from 0x2000'0000 to 0x2001'fbff] { block RW };
+define block ZI { zi };
+"P3":  place in [from 0x2000'0000 to 0x2001'fbff] { block ZI };
+define block NCACHE_VAR { section NonCacheable, section NonCacheable.init };
+"P5":  place in [from 0x2000'0000 to 0x2001'fbff] { block NCACHE_VAR };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P6":  place in [from 0x2001'fc00 to 0x2001'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+keep {
+   section .boot_hdr.conf, section .boot_hdr.ivt, section .boot_hdr.boot_data,
+   section .boot_hdr.dcd_data };
+
+No sections matched the following patterns:
+
+  section NonCacheable       in block NCACHE_VAR
+  section NonCacheable.init  in block NCACHE_VAR
+
+
+  Section              Kind         Address     Size  Object
+  -------              ----         -------     ----  ------
+"P2-P3|P5", part 1 of 2:                       0x168
+  RW                            0x2000'0000    0x168  <Block>
+    RW-1                        0x2000'0000    0x167  <Init block>
+      .data            inited   0x2000'0000      0x4  cust_api_stack_offload.o [1]
+      .data            inited   0x2000'0004      0x4  driver_init.o [1]
+      .data            inited   0x2000'0008     0x24  main.o [1]
+      .data            inited   0x2000'002c     0x44  main.o [1]
+      .data            inited   0x2000'0070     0x9c  main.o [1]
+      .data            inited   0x2000'010c      0x4  port.o [1]
+      .data            inited   0x2000'0110      0x4  system_MIMXRT1052.o [1]
+      .data            inited   0x2000'0114      0x4  wifi_spi.o [1]
+      .data            inited   0x2000'0118     0x40  wifi_spi.o [1]
+      .data            inited   0x2000'0158      0xc  wifi_spi.o [1]
+      .data            inited   0x2000'0164      0x1  bmi.o [1]
+      .data            inited   0x2000'0165      0x1  main.o [1]
+      .data            inited   0x2000'0166      0x1  main.o [1]
+                              - 0x2000'0168    0x168
+
+"P2-P3|P5", part 2 of 2:                      0x57bc
+  ZI                            0x2000'0168   0x57bc  <Block>
+    .bss               zero     0x2000'0168      0x4  api_ioctl.o [1]
+    .bss               zero     0x2000'016c     0x24  api_stack_offload.o [1]
+    .bss               zero     0x2000'0190      0x4  api_stack_offload.o [1]
+    .bss               zero     0x2000'0194      0x4  api_stack_offload.o [1]
+    .bss               zero     0x2000'0198      0x4  api_wmi_rx.o [1]
+    .bss               zero     0x2000'019c      0x4  bmi.o [1]
+    .bss               zero     0x2000'01a0      0x4  bmi.o [1]
+    .bss               zero     0x2000'01a4      0x4  bmi.o [1]
+    .bss               zero     0x2000'01a8      0x4  cust_api_init.o [1]
+    .bss               zero     0x2000'01ac      0x8  cust_api_init.o [1]
+    .bss               zero     0x2000'01b4      0xc  cust_api_stack_offload.o [1]
+    .bss               zero     0x2000'01c0      0x4  cust_api_stack_offload.o [1]
+    .bss               zero     0x2000'01c4      0x4  cust_api_stack_offload.o [1]
+    .bss               zero     0x2000'01c8     0x38  cust_driver_main.o [1]
+    .bss               zero     0x2000'0200      0x4  cust_driver_main.o [1]
+    .bss               zero     0x2000'0204      0xc  cust_driver_main.o [1]
+    .bss               zero     0x2000'0210      0x4  driver_init.o [1]
+    .bss               zero     0x2000'0214      0x4  driver_init.o [1]
+    .bss               zero     0x2000'0218      0x4  driver_main.o [1]
+    .bss               zero     0x2000'021c      0x4  driver_main.o [1]
+    .bss               zero     0x2000'0220     0xc0  dset.o [1]
+    .bss               zero     0x2000'02e0    0x140  dset_api.o [1]
+    .bss               zero     0x2000'0420      0x4  fsl_clock.o [1]
+    .bss               zero     0x2000'0424      0x4  fsl_clock.o [1]
+    .bss               zero     0x2000'0428     0x80  fsl_edma.o [1]
+    .bss               zero     0x2000'04a8      0x8  fsl_io.o [1]
+    .bss               zero     0x2000'04b0     0x14  fsl_lpspi.o [1]
+    .bss               zero     0x2000'04c4      0x4  fsl_lpspi.o [1]
+    .bss               zero     0x2000'04c8      0x4  fsl_lpspi.o [1]
+    .bss               zero     0x2000'04cc      0x8  fsl_lpspi.o [1]
+    .bss               zero     0x2000'04d4     0x20  fsl_lpspi_edma.o [1]
+    .bss               zero     0x2000'04f4     0x24  fsl_lpuart.o [1]
+    .bss               zero     0x2000'0518      0x4  fsl_lpuart.o [1]
+    .bss               zero     0x2000'051c   0x5000  heap_4.o [1]
+    .bss               zero     0x2000'551c      0x8  heap_4.o [1]
+    .bss               zero     0x2000'5524      0x4  heap_4.o [1]
+    .bss               zero     0x2000'5528      0x4  heap_4.o [1]
+    .bss               zero     0x2000'552c      0x4  heap_4.o [1]
+    .bss               zero     0x2000'5530      0x4  heap_4.o [1]
+    .bss               zero     0x2000'5534      0x4  main.o [1]
+    .bss               zero     0x2000'5538      0x4  main.o [1]
+    .bss               zero     0x2000'553c      0x4  main.o [1]
+    .bss               zero     0x2000'5540      0x4  port.o [1]
+    .bss               zero     0x2000'5544     0x40  queue.o [1]
+    .bss               zero     0x2000'5584     0x14  rcv_aggr.o [1]
+    .bss               zero     0x2000'5598      0x4  tasks.o [1]
+    .bss               zero     0x2000'559c     0xa0  tasks.o [1]
+    .bss               zero     0x2000'563c     0x14  tasks.o [1]
+    .bss               zero     0x2000'5650     0x14  tasks.o [1]
+    .bss               zero     0x2000'5664      0x4  tasks.o [1]
+    .bss               zero     0x2000'5668      0x4  tasks.o [1]
+    .bss               zero     0x2000'566c     0x14  tasks.o [1]
+    .bss               zero     0x2000'5680     0x14  tasks.o [1]
+    .bss               zero     0x2000'5694      0x4  tasks.o [1]
+    .bss               zero     0x2000'5698     0x14  tasks.o [1]
+    .bss               zero     0x2000'56ac      0x4  tasks.o [1]
+    .bss               zero     0x2000'56b0      0x4  tasks.o [1]
+    .bss               zero     0x2000'56b4      0x4  tasks.o [1]
+    .bss               zero     0x2000'56b8      0x4  tasks.o [1]
+    .bss               zero     0x2000'56bc      0x4  tasks.o [1]
+    .bss               zero     0x2000'56c0      0x4  tasks.o [1]
+    .bss               zero     0x2000'56c4      0x4  tasks.o [1]
+    .bss               zero     0x2000'56c8      0x4  tasks.o [1]
+    .bss               zero     0x2000'56cc      0x4  tasks.o [1]
+    .bss               zero     0x2000'56d0      0x4  tasks.o [1]
+    .bss               zero     0x2000'56d4      0x4  tasks.o [1]
+    .bss               zero     0x2000'56d8     0x14  timers.o [1]
+    .bss               zero     0x2000'56ec     0x14  timers.o [1]
+    .bss               zero     0x2000'5700      0x4  timers.o [1]
+    .bss               zero     0x2000'5704      0x4  timers.o [1]
+    .bss               zero     0x2000'5708      0x4  timers.o [1]
+    .bss               zero     0x2000'570c      0x4  timers.o [1]
+    .bss               zero     0x2000'5710      0x4  timers.o [1]
+    .bss               zero     0x2000'5714     0x20  wifi_env.o [1]
+    .bss               zero     0x2000'5734      0x4  wifi_env.o [1]
+    .bss               zero     0x2000'5738      0x4  wifi_spi.o [1]
+    .bss               zero     0x2000'573c      0x4  wifi_spi.o [1]
+    .bss               zero     0x2000'5740     0xa4  wifi_spi.o [1]
+    .bss               zero     0x2000'57e4     0x18  wifi_spi.o [1]
+    .bss               zero     0x2000'57fc     0x18  wifi_spi.o [1]
+    .bss               zero     0x2000'5814     0x34  wifi_spi.o [1]
+    .bss               zero     0x2000'5848      0x4  wifi_spi.o [1]
+    .bss               zero     0x2000'584c      0x4  wifi_spi.o [1]
+    .bss               zero     0x2000'5850      0x4  wifi_spi.o [1]
+    .bss               zero     0x2000'5854     0x10  wlan_qca400x.o [1]
+    .bss               zero     0x2000'5864      0x4  wlan_qca400x.o [1]
+    .bss               zero     0x2000'5868      0x4  wlan_qca400x.o [1]
+    .bss               zero     0x2000'586c      0x4  wlan_qcom.o [1]
+    .bss               zero     0x2000'5870      0xc  wlan_qcom.o [1]
+    .bss               zero     0x2000'587c      0x4  wlan_qcom.o [1]
+    .bss               zero     0x2000'5880     0x64  wlan_qcom.o [1]
+    .bss               zero     0x2000'58e4      0x4  wlan_qcom.o [1]
+    .bss               zero     0x2000'58e8      0x4  wlan_qcom.o [1]
+    .bss               zero     0x2000'58ec      0x4  wlan_qcom.o [1]
+    .bss               zero     0x2000'58f0      0x8  wlan_qcom.o [1]
+    .bss               zero     0x2000'58f8     0x10  wlan_qcom.o [1]
+    .bss               zero     0x2000'5908     0x10  wmi.o [1]
+    .bss               zero     0x2000'5918      0x4  xfail_s.o [2]
+    .bss               zero     0x2000'591c      0x2  dset.o [1]
+    .bss               zero     0x2000'591e      0x2  wlan_qcom.o [1]
+    .bss               zero     0x2000'5920      0x1  cust_driver_netbuf.o [1]
+    .bss               zero     0x2000'5921      0x1  fsl_edma.o [1]
+    .bss               zero     0x2000'5922      0x1  port.o [1]
+    .bss               zero     0x2000'5923      0x1  wlan_qcom.o [1]
+                              - 0x2000'5924   0x57bc
+
+"P6":                                          0x400
+  CSTACK                        0x2001'fc00    0x400  <Block>
+    CSTACK             uninit   0x2001'fc00    0x400  <Block tail>
+                              - 0x2002'0000    0x400
+
+"A1":                                          0x200
+  .boot_hdr.conf       const    0x6000'0000    0x200  evkbimxrt1050_flexspi_nor_config.o [1]
+                              - 0x6000'0200    0x200
+
+"A2":                                           0x20
+  .boot_hdr.ivt        const    0x6000'1000     0x20  fsl_flexspi_nor_boot.o [1]
+                              - 0x6000'1020     0x20
+
+"A3":                                           0x10
+  .boot_hdr.boot_data  const    0x6000'1020     0x10  fsl_flexspi_nor_boot.o [1]
+                              - 0x6000'1030     0x10
+
+"A4":                                          0x430
+  .boot_hdr.dcd_data   const    0x6000'1030    0x430  evkbimxrt1050_sdram_ini_dcd.o [1]
+                              - 0x6000'1460    0x430
+
+"A0":                                          0x400
+  .intvec              ro code  0x6000'2000    0x400  startup_MIMXRT1052.o [1]
+                              - 0x6000'2400    0x400
+
+"P1":                                        0x1508c
+  .text                ro code  0x6000'2400   0x1a0c  cust_api_ioctl.o [1]
+  .text                ro code  0x6000'3e0c    0x210  driver_diag.o [1]
+  .text                ro code  0x6000'401c     0xa6  ABImemcpy.o [4]
+  .text                ro code  0x6000'40c2     0x3a  zero_init3.o [4]
+  .text                ro code  0x6000'40fc    0xdd8  wmi.o [1]
+  .text                ro code  0x6000'4ed4     0x3a  ABImemset48.o [4]
+  .text                ro code  0x6000'4f0e     0x1a  xsnprout.o [2]
+  .text                ro code  0x6000'4f28     0x12  strcmp.o [4]
+  .text                ro code  0x6000'4f3a      0xa  xsprout.o [2]
+  .text                ro code  0x6000'4f44    0x544  driver_main.o [1]
+  .text                ro code  0x6000'5488    0x358  wifi_env.o [1]
+  .text                ro code  0x6000'57e0   0x11f0  api_stack_offload.o [1]
+  .text                ro code  0x6000'69d0     0x40  sprintf.o [2]
+  .text                ro code  0x6000'6a10    0x464  cust_driver_netbuf.o [1]
+  .text                ro code  0x6000'6e74     0x18  fsl_assert.o [1]
+  .text                ro code  0x6000'6e8c    0xff8  api_ioctl.o [1]
+  .text                ro code  0x6000'7e84    0x43c  bmi.o [1]
+  .text                ro code  0x6000'82c0    0x304  api_txrx.o [1]
+  .text                ro code  0x6000'85c4     0x24  dset_api.o [1]
+  .text                ro code  0x6000'85e8     0x66  ABImemset.o [4]
+  .rodata              const    0x6000'864e      0x2  api_init.o [1]
+  .text                ro code  0x6000'8650     0x28  printf.o [2]
+  .text                ro code  0x6000'8678    0x188  cust_api_init.o [1]
+  .text                ro code  0x6000'8800    0xa8c  spi_hcd.o [1]
+  .text                ro code  0x6000'928c    0xdac  api_wmi_rx.o [1]
+  .text                ro code  0x6000'a038    0x174  dset.o [1]
+  .text                ro code  0x6000'a1ac    0x12c  hw_api.o [1]
+  .text                ro code  0x6000'a2d8    0x188  driver_txrx.o [1]
+  .text                ro code  0x6000'a460     0x62  util.o [1]
+  .rodata              const    0x6000'a4c2      0x2  fsl_dmamux.o [1]
+  .text                ro code  0x6000'a4c4    0x63c  htc.o [1]
+  .text                ro code  0x6000'ab00    0x134  cust_driver_main.o [1]
+  .text                ro code  0x6000'ac34    0x58c  driver_init.o [1]
+  .text                ro code  0x6000'b1c0    0xb68  tasks.o [1]
+  .text                ro code  0x6000'bd28    0x238  heap_4.o [1]
+  .text                ro code  0x6000'bf60    0x93a  queue.o [1]
+  .rodata              const    0x6000'c89a      0x2  fsl_edma.o [1]
+  .text                ro code  0x6000'c89c    0x2a4  event_groups.o [1]
+  .text                ro code  0x6000'cb40    0x214  port.o [1]
+  .text                ro code  0x6000'cd54    0x7dc  cust_api_stack_offload.o [1]
+  .text                ro code  0x6000'd530     0x18  strcpy.o [4]
+  .text                ro code  0x6000'd548    0x4d0  xprintfsmall_nomb.o [2]
+  .text                ro code  0x6000'da18     0xd8  fsl_debug_console.o [1]
+  .text                ro code  0x6000'daf0    0x184  api_init.o [1]
+  .text                ro code  0x6000'dc74      0x6  ABImemclr4.o [4]
+  .rodata              const    0x6000'dc7a      0x2  qcom_api.o [1]
+  .text                ro code  0x6000'dc7c    0x112  cust_api_stack_txrx.o [1]
+  .rodata              const    0x6000'dd8e      0x2  qcom_api.o [1]
+  .text                ro code  0x6000'dd90    0x650  wifi_spi.o [1]
+  .text                ro code  0x6000'e3e0    0x5c6  cust_api_wmi_rx.o [1]
+  .rodata              const    0x6000'e9a6      0x2  qcom_api.o [1]
+  .text                ro code  0x6000'e9a8     0xbc  rcv_aggr.o [1]
+  .text                ro code  0x6000'ea64    0x148  storerecall.o [1]
+  .text                ro code  0x6000'ebac    0x234  wifi_shield.o [1]
+  .text                ro code  0x6000'ede0     0x92  list.o [1]
+  .text                ro code  0x6000'ee72      0x2  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6000'ee74    0x3dc  timers.o [1]
+  .text                ro code  0x6000'f250     0x34  fsl_tickless_systick.o [1]
+  CODE                 ro code  0x6000'f284     0xb0  portasm.o [1]
+  .text                ro code  0x6000'f334     0x96  ABImemmove.o [4]
+  .text                ro code  0x6000'f3ca      0x2  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6000'f3cc     0x16  strchr.o [4]
+  .text                ro code  0x6000'f3e2      0x2  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6000'f3e4     0x40  xfail_s.o [2]
+  .text                ro code  0x6000'f424     0x36  strlen.o [4]
+  .text                ro code  0x6000'f45a      0x2  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6000'f45c     0x58  memchr.o [4]
+  .text                ro code  0x6000'f4b4     0xa0  fsl_log.o [1]
+  .text                ro code  0x6000'f554    0x29a  fsl_str.o [1]
+  .text                ro code  0x6000'f7ee      0x2  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6000'f7f0    0xbf0  fsl_lpspi.o [1]
+  .text                ro code  0x6001'03e0     0x94  fsl_dmamux.o [1]
+  .text                ro code  0x6001'0474    0x8f0  fsl_edma.o [1]
+  .text                ro code  0x6001'0d64    0x6e0  fsl_lpspi_edma.o [1]
+  .text                ro code  0x6001'1444     0x68  memcmp.o [4]
+  .text                ro code  0x6001'14ac    0x23c  pin_mux.o [1]
+  .text                ro code  0x6001'16e8    0x198  fsl_gpio.o [1]
+  .text                ro code  0x6001'1880    0x554  fsl_clock.o [1]
+  .text                ro code  0x6001'1dd4     0x84  wlan_qca400x.o [1]
+  .text                ro code  0x6001'1e58      0x6  abort.o [2]
+  .text                ro code  0x6001'1e5e      0x2  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'1e60     0xb4  fsl_io.o [1]
+  .text                ro code  0x6001'1f14    0x230  I64DivMod.o [4]
+  .text                ro code  0x6001'2144    0x6f2  qcom_api.o [1]
+  .rodata              const    0x6001'2836      0x1  api_init.o [1]
+  .text                ro code  0x6001'2838     0x14  exit.o [5]
+  .text                ro code  0x6001'284c    0x4dc  fsl_lpuart.o [1]
+  .text                ro code  0x6001'2d28      0x2  I64DivZer.o [4]
+  .text                ro code  0x6001'2d2a    0x20a  custom_qcom_api.o [1]
+  .text                ro code  0x6001'2f34    0xab8  wlan_qcom.o [1]
+  .text                ro code  0x6001'39ec     0x44  snprintf.o [2]
+  .text                ro code  0x6001'3a30    0x46c  main.o [1]
+  .text                ro code  0x6001'3e9c    0x2d4  board.o [1]
+  .text                ro code  0x6001'4170    0x3e8  clock_config.o [1]
+  Initializer bytes    const    0x6001'4558    0x168  <for RW-1>
+  .text                ro code  0x6001'46c0    0x14a  system_MIMXRT1052.o [1]
+  .rodata              const    0x6001'480c     0xe0  cust_api_wmi_rx.o [1]
+  .rodata              const    0x6001'48ec     0x94  wifi_spi.o [1]
+  .rodata              const    0x6001'4980     0x88  wlan_qcom.o [1]
+  .rodata              const    0x6001'4a08     0x6c  cust_api_stack_offload.o [1]
+  .rodata              const    0x6001'4a74     0x6c  wifi_shield.o [1]
+  .rodata              const    0x6001'4ae0     0x68  api_stack_offload.o [1]
+  .rodata              const    0x6001'4b48     0x68  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'4bb0     0x68  wifi_spi.o [1]
+  .rodata              const    0x6001'4c18     0x64  api_wmi_rx.o [1]
+  .rodata              const    0x6001'4c7c     0x64  cust_api_init.o [1]
+  .rodata              const    0x6001'4ce0     0x64  cust_driver_netbuf.o [1]
+  .rodata              const    0x6001'4d44     0x64  wlan_qcom.o [1]
+  .rodata              const    0x6001'4da8     0x60  api_init.o [1]
+  .rodata              const    0x6001'4e08     0x60  api_ioctl.o [1]
+  .rodata              const    0x6001'4e68     0x60  api_txrx.o [1]
+  .rodata              const    0x6001'4ec8     0x60  cust_driver_main.o [1]
+  .rodata              const    0x6001'4f28     0x60  main.o [1]
+  .rodata              const    0x6001'4f88     0x60  storerecall.o [1]
+  .rodata              const    0x6001'4fe8     0x5c  driver_diag.o [1]
+  .rodata              const    0x6001'5044     0x5c  driver_init.o [1]
+  .rodata              const    0x6001'50a0     0x5c  driver_main.o [1]
+  .rodata              const    0x6001'50fc     0x5c  driver_txrx.o [1]
+  .rodata              const    0x6001'5158     0x5c  hw_api.o [1]
+  .rodata              const    0x6001'51b4     0x5c  rcv_aggr.o [1]
+  .rodata              const    0x6001'5210     0x5c  spi_hcd.o [1]
+  .rodata              const    0x6001'526c     0x58  fsl_debug_console.o [1]
+  .rodata              const    0x6001'52c4     0x58  main.o [1]
+  .rodata              const    0x6001'531c     0x58  main.o [1]
+  .rodata              const    0x6001'5374     0x58  main.o [1]
+  .rodata              const    0x6001'53cc     0x58  wifi_env.o [1]
+  .rodata              const    0x6001'5424     0x54  fsl_log.o [1]
+  .rodata              const    0x6001'5478     0x54  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'54cc     0x54  spi_hcd.o [1]
+  .rodata              const    0x6001'5520     0x50  bmi.o [1]
+  .rodata              const    0x6001'5570     0x50  clock_config.o [1]
+  .rodata              const    0x6001'55c0     0x50  cust_driver_main.o [1]
+  .rodata              const    0x6001'5610     0x50  fsl_dmamux.o [1]
+  .rodata              const    0x6001'5660     0x50  fsl_dmamux.o [1]
+  .rodata              const    0x6001'56b0     0x50  fsl_edma.o [1]
+  .rodata              const    0x6001'5700     0x50  fsl_edma.o [1]
+  .rodata              const    0x6001'5750     0x50  fsl_gpio.o [1]
+  .rodata              const    0x6001'57a0     0x50  fsl_gpio.o [1]
+  .rodata              const    0x6001'57f0     0x50  fsl_io.o [1]
+  .rodata              const    0x6001'5840     0x50  fsl_lpspi.o [1]
+  .rodata              const    0x6001'5890     0x50  fsl_lpspi.o [1]
+  .rodata              const    0x6001'58e0     0x50  fsl_lpuart.o [1]
+  .rodata              const    0x6001'5930     0x50  fsl_lpuart.o [1]
+  .rodata              const    0x6001'5980     0x50  htc.o [1]
+  .rodata              const    0x6001'59d0     0x50  main.o [1]
+  .rodata              const    0x6001'5a20     0x50  pin_mux.o [1]
+  .rodata              const    0x6001'5a70     0x50  wmi.o [1]
+  .rodata              const    0x6001'5ac0     0x4c  main.o [1]
+  .rodata              const    0x6001'5b0c     0x4c  wlan_qcom.o [1]
+  .rodata              const    0x6001'5b58     0x48  main.o [1]
+  .rodata              const    0x6001'5ba0     0x40  fsl_dmamux.o [1]
+  .rodata              const    0x6001'5be0     0x40  fsl_edma.o [1]
+  .rodata              const    0x6001'5c20     0x40  fsl_lpspi.o [1]
+  .rodata              const    0x6001'5c60     0x40  fsl_lpuart.o [1]
+  .rodata              const    0x6001'5ca0     0x40  main.o [1]
+  .rodata              const    0x6001'5ce0     0x40  main.o [1]
+  .rodata              const    0x6001'5d20     0x40  wlan_qca400x.o [1]
+  .rodata              const    0x6001'5d60     0x3c  fsl_edma.o [1]
+  .rodata              const    0x6001'5d9c     0x3c  fsl_gpio.o [1]
+  .rodata              const    0x6001'5dd8     0x3c  main.o [1]
+  .rodata              const    0x6001'5e14     0x3c  wifi_spi.o [1]
+  .rodata              const    0x6001'5e50     0x38  bmi.o [1]
+  .rodata              const    0x6001'5e88     0x38  spi_hcd.o [1]
+  .rodata              const    0x6001'5ec0     0x38  wlan_qcom.o [1]
+  .rodata              const    0x6001'5ef8     0x38  wlan_qcom.o [1]
+  .rodata              const    0x6001'5f30     0x34  main.o [1]
+  .rodata              const    0x6001'5f64     0x34  main.o [1]
+  .rodata              const    0x6001'5f98     0x34  main.o [1]
+  .rodata              const    0x6001'5fcc     0x34  wlan_qcom.o [1]
+  .rodata              const    0x6001'6000     0x30  htc.o [1]
+  .rodata              const    0x6001'6030     0x30  main.o [1]
+  .rodata              const    0x6001'6060     0x30  wlan_qca400x.o [1]
+  .rodata              const    0x6001'6090     0x30  wlan_qcom.o [1]
+  .rodata              const    0x6001'60c0     0x2c  fsl_assert.o [1]
+  .rodata              const    0x6001'60ec     0x2c  main.o [1]
+  .rodata              const    0x6001'6118     0x2c  main.o [1]
+  .rodata              const    0x6001'6144     0x2c  wifi_spi.o [1]
+  .rodata              const    0x6001'6170     0x2c  wlan_qcom.o [1]
+  .rodata              const    0x6001'619c     0x2c  wlan_qcom.o [1]
+  .rodata              const    0x6001'61c8     0x2c  wlan_qcom.o [1]
+  .rodata              const    0x6001'61f4     0x2c  wlan_qcom.o [1]
+  .text                ro code  0x6001'6220     0x2c  copy_init3.o [4]
+  .rodata              const    0x6001'624c     0x28  wlan_qca400x.o [1]
+  .rodata              const    0x6001'6274     0x28  wlan_qcom.o [1]
+  .rodata              const    0x6001'629c     0x28  wlan_qcom.o [1]
+  .rodata              const    0x6001'62c4     0x28  wlan_qcom.o [1]
+  .rodata              const    0x6001'62ec     0x28  wlan_qcom.o [1]
+  .rodata              const    0x6001'6314     0x28  wlan_qcom.o [1]
+  .rodata              const    0x6001'633c     0x28  wmi.o [1]
+  .text                ro code  0x6001'6364     0x28  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'638c     0x28  data_init.o [4]
+  .rodata              const    0x6001'63b4     0x24  cust_driver_main.o [1]
+  .rodata              const    0x6001'63d8     0x24  fsl_edma.o [1]
+  .rodata              const    0x6001'63fc     0x24  fsl_lpuart.o [1]
+  .rodata              const    0x6001'6420     0x24  htc.o [1]
+  .rodata              const    0x6001'6444     0x24  main.o [1]
+  .rodata              const    0x6001'6468     0x24  main.o [1]
+  .rodata              const    0x6001'648c     0x24  wlan_qcom.o [1]
+  .text                ro code  0x6001'64b0     0x22  fpinit_M.o [3]
+  .iar.init_table      const    0x6001'64d4     0x24  - Linker created -
+  .rodata              const    0x6001'64f8     0x20  cust_api_init.o [1]
+  .rodata              const    0x6001'6518     0x20  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'6538     0x20  fsl_edma.o [1]
+  .rodata              const    0x6001'6558     0x20  fsl_lpuart.o [1]
+  .rodata              const    0x6001'6578     0x20  fsl_lpuart.o [1]
+  .rodata              const    0x6001'6598     0x20  main.o [1]
+  .rodata              const    0x6001'65b8     0x20  main.o [1]
+  .rodata              const    0x6001'65d8     0x20  main.o [1]
+  .rodata              const    0x6001'65f8     0x20  wlan_qcom.o [1]
+  .rodata              const    0x6001'6618     0x20  wlan_qcom.o [1]
+  .rodata              const    0x6001'6638     0x20  wlan_qcom.o [1]
+  .text                ro code  0x6001'6658     0x20  putchar.o [2]
+  .text                ro code  0x6001'6678     0x1e  cmain.o [4]
+  .text                ro code  0x6001'6696      0x4  low_level_init.o [2]
+  .text                ro code  0x6001'669a      0x4  exit.o [2]
+  .text                ro code  0x6001'66a0      0xa  cexit.o [4]
+  .rodata              const    0x6001'66ac     0x1c  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'66c8     0x1c  driver_init.o [1]
+  .rodata              const    0x6001'66e4     0x1c  driver_init.o [1]
+  .rodata              const    0x6001'6700     0x1c  driver_init.o [1]
+  .rodata              const    0x6001'671c     0x1c  driver_init.o [1]
+  .rodata              const    0x6001'6738     0x1c  driver_main.o [1]
+  .rodata              const    0x6001'6754     0x1c  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'6770     0x1c  main.o [1]
+  .rodata              const    0x6001'678c     0x1c  wifi_env.o [1]
+  .rodata              const    0x6001'67a8     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'67c4     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'67e0     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'67fc     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'6818     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'6834     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'6850     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'686c     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'6888     0x1c  wlan_qcom.o [1]
+  .rodata              const    0x6001'68a4     0x18  clock_config.o [1]
+  .rodata              const    0x6001'68bc     0x18  driver_init.o [1]
+  .rodata              const    0x6001'68d4     0x18  fsl_gpio.o [1]
+  .rodata              const    0x6001'68ec     0x18  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'6904     0x18  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'691c     0x18  fsl_lpuart.o [1]
+  .rodata              const    0x6001'6934     0x18  main.o [1]
+  .rodata              const    0x6001'694c     0x18  main.o [1]
+  .rodata              const    0x6001'6964     0x18  main.o [1]
+  .rodata              const    0x6001'697c     0x18  main.o [1]
+  .rodata              const    0x6001'6994     0x18  main.o [1]
+  .rodata              const    0x6001'69ac     0x18  main.o [1]
+  .rodata              const    0x6001'69c4     0x18  main.o [1]
+  .rodata              const    0x6001'69dc     0x18  main.o [1]
+  .rodata              const    0x6001'69f4     0x18  main.o [1]
+  .rodata              const    0x6001'6a0c     0x18  spi_hcd.o [1]
+  .rodata              const    0x6001'6a24     0x18  wifi_env.o [1]
+  .rodata              const    0x6001'6a3c     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6a54     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6a6c     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6a84     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6a9c     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6ab4     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6acc     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6ae4     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6afc     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6b14     0x18  wlan_qcom.o [1]
+  .rodata              const    0x6001'6b2c     0x18  wmi.o [1]
+  .text                ro code  0x6001'6b44     0x16  xprout.o [2]
+  .rodata              const    0x6001'6b5c     0x14  api_init.o [1]
+  .rodata              const    0x6001'6b70     0x14  api_wmi_rx.o [1]
+  .rodata              const    0x6001'6b84     0x14  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'6b98     0x14  driver_main.o [1]
+  .rodata              const    0x6001'6bac     0x14  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6bc0     0x14  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6bd4     0x14  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6be8     0x14  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6bfc     0x14  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6c10     0x14  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6c24     0x14  fsl_lpuart.o [1]
+  .rodata              const    0x6001'6c38     0x14  main.o [1]
+  .rodata              const    0x6001'6c4c     0x14  main.o [1]
+  .rodata              const    0x6001'6c60     0x14  main.o [1]
+  .rodata              const    0x6001'6c74     0x14  main.o [1]
+  .rodata              const    0x6001'6c88     0x14  main.o [1]
+  .rodata              const    0x6001'6c9c     0x14  main.o [1]
+  .rodata              const    0x6001'6cb0     0x14  spi_hcd.o [1]
+  .rodata              const    0x6001'6cc4     0x14  wifi_spi.o [1]
+  .rodata              const    0x6001'6cd8     0x14  wifi_spi.o [1]
+  .rodata              const    0x6001'6cec     0x14  wlan_qca400x.o [1]
+  .rodata              const    0x6001'6d00     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d14     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d28     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d3c     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d50     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d64     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d78     0x14  wlan_qcom.o [1]
+  .rodata              const    0x6001'6d8c     0x10  api_wmi_rx.o [1]
+  .rodata              const    0x6001'6d9c     0x10  api_wmi_rx.o [1]
+  .rodata              const    0x6001'6dac     0x10  bmi.o [1]
+  .rodata              const    0x6001'6dbc     0x10  clock_config.o [1]
+  .rodata              const    0x6001'6dcc     0x10  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'6ddc     0x10  fsl_clock.o [1]
+  .rodata              const    0x6001'6dec     0x10  fsl_debug_console.o [1]
+  .rodata              const    0x6001'6dfc     0x10  fsl_edma.o [1]
+  .rodata              const    0x6001'6e0c     0x10  fsl_lpspi.o [1]
+  .rodata              const    0x6001'6e1c     0x10  main.o [1]
+  .rodata              const    0x6001'6e2c     0x10  main.o [1]
+  .rodata              const    0x6001'6e3c     0x10  main.o [1]
+  .rodata              const    0x6001'6e4c     0x10  main.o [1]
+  .rodata              const    0x6001'6e5c     0x10  main.o [1]
+  .rodata              const    0x6001'6e6c     0x10  main.o [1]
+  .rodata              const    0x6001'6e7c     0x10  spi_hcd.o [1]
+  .rodata              const    0x6001'6e8c     0x10  wifi_shield.o [1]
+  .rodata              const    0x6001'6e9c     0x10  wifi_spi.o [1]
+  .rodata              const    0x6001'6eac     0x10  wifi_spi.o [1]
+  .rodata              const    0x6001'6ebc     0x10  wifi_spi.o [1]
+  .rodata              const    0x6001'6ecc     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6edc     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6eec     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6efc     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f0c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f1c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f2c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f3c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f4c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f5c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f6c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f7c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f8c     0x10  wlan_qcom.o [1]
+  .rodata              const    0x6001'6f9c     0x10  wmi.o [1]
+  .rodata              const    0x6001'6fac      0xc  bmi.o [1]
+  .rodata              const    0x6001'6fb8      0xc  cust_api_init.o [1]
+  .rodata              const    0x6001'6fc4      0xc  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'6fd0      0xc  cust_driver_main.o [1]
+  .rodata              const    0x6001'6fdc      0xc  fsl_dmamux.o [1]
+  .rodata              const    0x6001'6fe8      0xc  fsl_edma.o [1]
+  .rodata              const    0x6001'6ff4      0xc  fsl_edma.o [1]
+  .rodata              const    0x6001'7000      0xc  fsl_edma.o [1]
+  .rodata              const    0x6001'700c      0xc  fsl_edma.o [1]
+  .rodata              const    0x6001'7018      0xc  fsl_gpio.o [1]
+  .rodata              const    0x6001'7024      0xc  fsl_gpio.o [1]
+  .rodata              const    0x6001'7030      0xc  fsl_gpio.o [1]
+  .rodata              const    0x6001'703c      0xc  fsl_log.o [1]
+  .rodata              const    0x6001'7048      0xc  fsl_lpspi.o [1]
+  .rodata              const    0x6001'7054      0xc  fsl_lpspi.o [1]
+  .rodata              const    0x6001'7060      0xc  fsl_lpspi.o [1]
+  .rodata              const    0x6001'706c      0xc  fsl_lpspi.o [1]
+  .rodata              const    0x6001'7078      0xc  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'7084      0xc  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'7090      0xc  fsl_lpuart.o [1]
+  .rodata              const    0x6001'709c      0xc  main.o [1]
+  .rodata              const    0x6001'70a8      0xc  main.o [1]
+  .rodata              const    0x6001'70b4      0xc  main.o [1]
+  .rodata              const    0x6001'70c0      0xc  pin_mux.o [1]
+  .rodata              const    0x6001'70cc      0xc  wifi_spi.o [1]
+  .rodata              const    0x6001'70d8      0xc  wifi_spi.o [1]
+  .rodata              const    0x6001'70e4      0xc  wifi_spi.o [1]
+  .rodata              const    0x6001'70f0      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'70fc      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7108      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7114      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7120      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'712c      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7138      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7144      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7150      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'715c      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7168      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7174      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'7180      0xc  wlan_qcom.o [1]
+  .rodata              const    0x6001'718c      0xc  wmi.o [1]
+  .text                ro code  0x6001'7198      0xc  cstartup_M.o [4]
+  .rodata              const    0x6001'71a4      0x8  clock_config.o [1]
+  .rodata              const    0x6001'71ac      0x8  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'71b4      0x8  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'71bc      0x8  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'71c4      0x8  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'71cc      0x8  cust_api_ioctl.o [1]
+  .rodata              const    0x6001'71d4      0x8  cust_api_wmi_rx.o [1]
+  .rodata              const    0x6001'71dc      0x8  fsl_io.o [1]
+  .rodata              const    0x6001'71e4      0x8  fsl_log.o [1]
+  .rodata              const    0x6001'71ec      0x8  fsl_lpspi.o [1]
+  .rodata              const    0x6001'71f4      0x8  fsl_lpspi.o [1]
+  .rodata              const    0x6001'71fc      0x8  fsl_lpspi.o [1]
+  .rodata              const    0x6001'7204      0x8  fsl_lpspi.o [1]
+  .rodata              const    0x6001'720c      0x8  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'7214      0x8  fsl_lpspi_edma.o [1]
+  .rodata              const    0x6001'721c      0x8  fsl_lpuart.o [1]
+  .rodata              const    0x6001'7224      0x8  fsl_lpuart.o [1]
+  .rodata              const    0x6001'722c      0x8  main.o [1]
+  .rodata              const    0x6001'7234      0x8  main.o [1]
+  .rodata              const    0x6001'723c      0x8  main.o [1]
+  .rodata              const    0x6001'7244      0x8  qcom_api.o [1]
+  .rodata              const    0x6001'724c      0x8  qcom_api.o [1]
+  .rodata              const    0x6001'7254      0x8  rcv_aggr.o [1]
+  .rodata              const    0x6001'725c      0x8  rcv_aggr.o [1]
+  .rodata              const    0x6001'7264      0x8  tasks.o [1]
+  .rodata              const    0x6001'726c      0x8  timers.o [1]
+  .rodata              const    0x6001'7274      0x8  timers.o [1]
+  .rodata              const    0x6001'727c      0x8  wifi_env.o [1]
+  .rodata              const    0x6001'7284      0x8  wifi_env.o [1]
+  .rodata              const    0x6001'728c      0x8  wifi_env.o [1]
+  .rodata              const    0x6001'7294      0x8  wifi_env.o [1]
+  .rodata              const    0x6001'729c      0x8  wlan_qca400x.o [1]
+  .rodata              const    0x6001'72a4      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72ac      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72b4      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72bc      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72c4      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72cc      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72d4      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72dc      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72e4      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72ec      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72f4      0x8  wlan_qcom.o [1]
+  .rodata              const    0x6001'72fc      0x8  wmi.o [1]
+  .rodata              const    0x6001'7304      0x8  wmi.o [1]
+  .text                ro code  0x6001'730c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7314      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'731c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7324      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'732c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7334      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'733c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7344      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'734c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7354      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'735c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7364      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'736c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7374      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'737c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7384      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'738c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7394      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'739c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73a4      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73ac      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73b4      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73bc      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73c4      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73cc      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73d4      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73dc      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73e4      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73ec      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73f4      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'73fc      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7404      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'740c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7414      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'741c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7424      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'742c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7434      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'743c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7444      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'744c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7454      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'745c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7464      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'746c      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'7474      0x8  startup_MIMXRT1052.o [1]
+  .text                ro code  0x6001'747c      0x8  startup_MIMXRT1052.o [1]
+  .rodata              const    0x6001'7484      0x4  wifi_spi.o [1]
+  .text                ro code  0x6001'7488      0x4  startup_MIMXRT1052.o [1]
+  .rodata              const    0x6001'748c      0x0  zero_init3.o [4]
+  .rodata              const    0x6001'748c      0x0  copy_init3.o [4]
+                              - 0x6001'748c  0x1508c
+
+Unused ranges:
+
+         From           To        Size
+         ----           --        ----
+  0x2000'5924  0x2001'fbff    0x1'a2dc
+  0x6001'748c  0x63ff'ffff  0x3fe'8b74
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x57bc:
+          0x2000'0168  0x57bc
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x168 (100% of destination):
+          0x6001'4558   0x168
+    1 destination range, total size 0x167:
+          0x2000'0000   0x167
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                              ro code  ro data  rw data
+    ------                              -------  -------  -------
+command line/config:
+    -------------------------------------------------------------
+    Total:
+
+C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj: [1]
+    api_init.o                              388      119
+    api_ioctl.o                           4 088       96        4
+    api_stack_offload.o                   4 592      104       44
+    api_txrx.o                              772       96
+    api_wmi_rx.o                          3 500      152        4
+    bmi.o                                 1 084      165       13
+    board.o                                 724
+    clock_config.o                        1 000      128
+    cust_api_init.o                         392      144       12
+    cust_api_ioctl.o                      6 668      252
+    cust_api_stack_offload.o              2 012      112       24
+    cust_api_stack_txrx.o                   274
+    cust_api_wmi_rx.o                     1 478      232
+    cust_driver_main.o                      308      224       72
+    cust_driver_netbuf.o                  1 124      100        1
+    custom_qcom_api.o                       522
+    driver_diag.o                           528       92
+    driver_init.o                         1 420      232       12
+    driver_main.o                         1 348      140        8
+    driver_txrx.o                           392       92
+    dset.o                                  372               194
+    dset_api.o                               36               320
+    event_groups.o                          676
+    evkbimxrt1050_flexspi_nor_config.o               512
+    evkbimxrt1050_sdram_ini_dcd.o                  1 072
+    fsl_assert.o                             24       44
+    fsl_clock.o                           1 364       16        8
+    fsl_debug_console.o                     216      104
+    fsl_dmamux.o                            148      238
+    fsl_edma.o                            2 288      418      129
+    fsl_flexspi_nor_boot.o                            48
+    fsl_gpio.o                              408      280
+    fsl_io.o                                180       88        8
+    fsl_log.o                               160      104
+    fsl_lpspi.o                           3 056      440       36
+    fsl_lpspi_edma.o                      1 760      200       32
+    fsl_lpuart.o                          1 244      396       40
+    fsl_str.o                               666
+    fsl_tickless_systick.o                   52
+    heap_4.o                                568            20 504
+    htc.o                                 1 596      164
+    hw_api.o                                300       92
+    list.o                                  146
+    main.o                                1 132    2 018      274
+    pin_mux.o                               572       92
+    port.o                                  532        4        9
+    portasm.o                               176
+    qcom_api.o                            1 778       22
+    queue.o                               2 362                64
+    rcv_aggr.o                              188      108       20
+    spi_hcd.o                             2 700      292
+    startup_MIMXRT1052.o                  1 456
+    storerecall.o                           328       96
+    system_MIMXRT1052.o                     330        4        4
+    tasks.o                               2 920        8      320
+    timers.o                                988       16       60
+    util.o                                   98
+    wifi_env.o                              856      172       36
+    wifi_shield.o                           564      124
+    wifi_spi.o                            1 616      564      364
+    wlan_qca400x.o                          132      180       24
+    wlan_qcom.o                           2 744    2 116      159
+    wmi.o                                 3 544      188       16
+    -------------------------------------------------------------
+    Total:                               72 890   12 700   22 815
+
+dl7M_tln.a: [2]
+    abort.o                                   6
+    exit.o                                    4
+    low_level_init.o                          4
+    printf.o                                 40
+    putchar.o                                32
+    snprintf.o                               68
+    sprintf.o                                64
+    xfail_s.o                                64                 4
+    xprintfsmall_nomb.o                   1 232
+    xprout.o                                 22
+    xsnprout.o                               26
+    xsprout.o                                10
+    -------------------------------------------------------------
+    Total:                                1 572                 4
+
+m7M_tlv.a: [3]
+    fpinit_M.o                               34
+    -------------------------------------------------------------
+    Total:                                   34
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                              6
+    ABImemcpy.o                             166
+    ABImemmove.o                            150
+    ABImemset.o                             102
+    ABImemset48.o                            58
+    I64DivMod.o                             560
+    I64DivZer.o                               2
+    cexit.o                                  10
+    cmain.o                                  30
+    copy_init3.o                             44
+    cstartup_M.o                             12
+    data_init.o                              40
+    memchr.o                                 88
+    memcmp.o                                104
+    strchr.o                                 22
+    strcmp.o                                 18
+    strcpy.o                                 24
+    strlen.o                                 54
+    zero_init3.o                             58
+    -------------------------------------------------------------
+    Total:                                1 548
+
+shb_l.a: [5]
+    exit.o                                   20
+    -------------------------------------------------------------
+    Total:                                   20
+
+    Gaps                                      3        8
+    Linker created                                    37    1 024
+-----------------------------------------------------------------
+    Grand Total:                         76 067   12 745   23 843
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base   0x6001'64d4           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x6001'64f8           --   Gb  - Linker created -
+?main                   0x6001'6679          Code  Gb  cmain.o [4]
+ARM_MPU_Disable         0x6001'3eb9    0x1e  Code  Lc  board.o [1]
+ARM_MPU_Enable          0x6001'3e9d    0x1c  Code  Lc  board.o [1]
+ATHEROS_WIFI_IF         0x6001'64f8    0x20  Data  Gb  cust_api_init.o [1]
+Api_AggrRecvAddbaReqEvent
+                        0x6000'9b31    0x26  Code  Gb  api_wmi_rx.o [1]
+Api_AggrRecvDelbaReqEvent
+                        0x6000'9b57     0xc  Code  Gb  api_wmi_rx.o [1]
+Api_BootProfile         0x6000'daf1     0xe  Code  Gb  api_init.o [1]
+Api_BssInfoEvent        0x6000'9327     0x8  Code  Gb  api_wmi_rx.o [1]
+Api_ChannelListEvent    0x6000'92bb    0x42  Code  Gb  api_wmi_rx.o [1]
+Api_ConnectEvent        0x6000'938d   0x174  Code  Gb  api_wmi_rx.o [1]
+Api_ConnectWiFi         0x6000'7471   0x286  Code  Gb  api_ioctl.o [1]
+Api_DataTxStart         0x6000'8511    0xb4  Code  Gb  api_txrx.o [1]
+Api_DisconnectEvent     0x6000'9501    0xfe  Code  Gb  api_wmi_rx.o [1]
+Api_DisconnectWiFi      0x6000'737d    0xf4  Code  Gb  api_ioctl.o [1]
+Api_DriverAccessCheck   0x6000'7a45    0x74  Code  Gb  api_ioctl.o [1]
+Api_DsetOPEvent         0x6000'9903   0x15c  Code  Gb  api_wmi_rx.o [1]
+Api_GetBitRateEvent     0x6000'92b3     0x8  Code  Gb  api_wmi_rx.o [1]
+Api_GetCountryCodeReply
+                        0x6000'9bf1    0x20  Code  Gb  api_wmi_rx.o [1]
+Api_GetPmkEvent         0x6000'9359    0x34  Code  Gb  api_wmi_rx.o [1]
+Api_GetSetParamReply    0x6000'9c11    0x14  Code  Gb  api_wmi_rx.o [1]
+Api_GetTemperatureReply
+                        0x6000'9bcd    0x18  Code  Gb  api_wmi_rx.o [1]
+Api_GetWpsInitReply     0x6000'9be5     0xc  Code  Gb  api_wmi_rx.o [1]
+Api_HostDsetCreateEvent
+                        0x6000'964d    0x62  Code  Gb  api_wmi_rx.o [1]
+Api_HostDsetReadEvent   0x6000'9861    0x4c  Code  Gb  api_wmi_rx.o [1]
+Api_HostDsetReadbackEvent
+                        0x6000'9731    0xd4  Code  Gb  api_wmi_rx.o [1]
+Api_HostDsetStoreEvent  0x6000'95ff    0x4e  Code  Gb  api_wmi_rx.o [1]
+Api_HostDsetSyncEvent   0x6000'9805    0x5c  Code  Gb  api_wmi_rx.o [1]
+Api_HostDsetWriteEvent  0x6000'96af    0x82  Code  Gb  api_wmi_rx.o [1]
+Api_InitFinish          0x6000'db13    0x50  Code  Gb  api_init.o [1]
+Api_InitStart           0x6000'daff    0x14  Code  Gb  api_init.o [1]
+Api_ParseInfoElem       0x6000'7913   0x132  Code  Gb  api_ioctl.o [1]
+Api_ProbeReqEvent       0x6000'a035     0x4  Code  Gb  api_wmi_rx.o [1]
+Api_ProgramCountryCode  0x6000'701f    0xac  Code  Gb  api_ioctl.o [1]
+Api_ProgramMacAddress   0x6000'7ab9    0xd0  Code  Gb  api_ioctl.o [1]
+Api_RSNASuccessEvent    0x6000'9bc9     0x4  Code  Gb  api_wmi_rx.o [1]
+Api_ReadyEvent          0x6000'9b63    0x4c  Code  Gb  api_wmi_rx.o [1]
+Api_RegDomainEvent      0x6000'92ab     0x8  Code  Gb  api_wmi_rx.o [1]
+Api_RxComplete          0x6000'8371   0x176  Code  Gb  api_txrx.o [1]
+Api_RxDbglogEvent       0x6000'9c61     0x2  Code  Gb  api_wmi_rx.o [1]
+Api_RxGpioDataEvent     0x6000'9c63     0x8  Code  Gb  api_wmi_rx.o [1]
+Api_RxHBChallengeEvent  0x6000'9c6b    0x16  Code  Gb  api_wmi_rx.o [1]
+Api_RxPfmDataDoneEvent  0x6000'9c89     0x8  Code  Gb  api_wmi_rx.o [1]
+Api_RxPfmDataEvent      0x6000'9c81     0x8  Code  Gb  api_wmi_rx.o [1]
+Api_ScanCompleteEvent   0x6000'92fd    0x2a  Code  Gb  api_wmi_rx.o [1]
+Api_SetPowerMode        0x6000'7bd5    0x78  Code  Gb  api_ioctl.o [1]
+Api_SockResponseEventRx
+                        0x6000'5929   0x754  Code  Gb  api_stack_offload.o [1]
+Api_StoreRecallEvent    0x6000'9a5f    0x5a  Code  Gb  api_wmi_rx.o [1]
+Api_StoreRecallStartEvent
+                        0x6000'9ab9    0x24  Code  Gb  api_wmi_rx.o [1]
+Api_TargetStatsEvent    0x6000'928d    0x1e  Code  Gb  api_wmi_rx.o [1]
+Api_TestCmdEventRx      0x6000'9c43    0x1e  Code  Gb  api_wmi_rx.o [1]
+Api_Test_Cmd_Event      0x6000'a01d    0x18  Code  Gb  api_wmi_rx.o [1]
+Api_TkipMicErrorEvent   0x6000'932f    0x2a  Code  Gb  api_wmi_rx.o [1]
+Api_TxComplete          0x6000'833f    0x32  Code  Gb  api_txrx.o [1]
+Api_TxGetStatus         0x6000'82ef    0x50  Code  Gb  api_txrx.o [1]
+Api_WMIInitFinish       0x6000'dbbd    0xa2  Code  Gb  api_init.o [1]
+Api_WmiTxStart          0x6000'84f9    0x18  Code  Gb  api_txrx.o [1]
+Api_WpsProfileEvent     0x6000'9add    0x54  Code  Gb  api_wmi_rx.o [1]
+Api_bind                0x6000'62c1    0xee  Code  Gb  api_stack_offload.o [1]
+Api_connect             0x6000'61cd    0xee  Code  Gb  api_stack_offload.o [1]
+Api_dset_read_event     0x6000'98b5    0x4e  Code  Gb  api_wmi_rx.o [1]
+Api_get_p2p_ctx         0x6000'9e0d    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_ip_resolve_host_name
+                        0x6000'6629    0xa0  Code  Gb  api_stack_offload.o [1]
+Api_ipconfig            0x6000'64e1   0x144  Code  Gb  api_stack_offload.o [1]
+Api_p2p_go_neg_event    0x6000'9c91    0x6c  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_invite_rcvd_result
+                        0x6000'9f6d    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_invite_req      0x6000'9f15    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_invite_send_result
+                        0x6000'9fc5    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_list_persistent_network_event
+                        0x6000'9db3    0x5a  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_node_list_event
+                        0x6000'9cfd    0x5e  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_prov_disc_req   0x6000'9e65    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_req_auth_event  0x6000'9d5b    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_p2p_serv_disc_req   0x6000'9ebd    0x58  Code  Gb  api_wmi_rx.o [1]
+Api_ping                0x6000'66d5    0x96  Code  Gb  api_stack_offload.o [1]
+Api_recvfrom            0x6000'd265   0x21c  Code  Gb  cust_api_stack_offload.o [1]
+Api_select              0x6000'63c1   0x116  Code  Gb  api_stack_offload.o [1]
+Api_shutdown            0x6000'615d    0x70  Code  Gb  api_stack_offload.o [1]
+Api_socket              0x6000'607d    0xe0  Code  Gb  api_stack_offload.o [1]
+Atheros_Driver_Task     0x6000'538f    0x80  Code  Gb  driver_main.o [1]
+BMIDone                 0x6000'805f    0x50  Code  Gb  bmi.o [1]
+BMIExecute              0x6000'820b    0x92  Code  Gb  bmi.o [1]
+BMIGetTargetInfo        0x6000'80af    0xa4  Code  Gb  bmi.o [1]
+BMIInit                 0x6000'7ffb    0x64  Code  Gb  bmi.o [1]
+BMIWriteMemory          0x6000'8153    0xb8  Code  Gb  bmi.o [1]
+BOARD_BootClockRUN      0x6001'423d   0x210  Code  Gb  clock_config.o [1]
+BOARD_ConfigMPU         0x6001'407f    0x74  Code  Gb  board.o [1]
+BOARD_DebugConsoleSrcFreq
+                        0x6001'402d    0x3a  Code  Gb  board.o [1]
+BOARD_InitDebugConsole  0x6001'4067    0x18  Code  Gb  board.o [1]
+BOARD_InitGT202Shield   0x6001'1579   0x110  Code  Gb  pin_mux.o [1]
+BOARD_InitPins          0x6001'1515    0x64  Code  Gb  pin_mux.o [1]
+Bus_InOutDescriptorSet  0x6000'91b7    0x9c  Code  Gb  spi_hcd.o [1]
+Bus_InOutToken          0x6000'9253    0x16  Code  Gb  spi_hcd.o [1]
+CLOCK_ControlGate       0x6001'03e1    0x3a  Code  Lc  fsl_dmamux.o [1]
+CLOCK_ControlGate       0x6001'048d    0x40  Code  Lc  fsl_edma.o [1]
+CLOCK_ControlGate       0x6001'16e9    0x3a  Code  Lc  fsl_gpio.o [1]
+CLOCK_ControlGate       0x6000'f809    0x40  Code  Lc  fsl_lpspi.o [1]
+CLOCK_ControlGate       0x6001'284d    0x40  Code  Lc  fsl_lpuart.o [1]
+CLOCK_ControlGate       0x6001'14ad    0x3a  Code  Lc  pin_mux.o [1]
+CLOCK_EnableClock       0x6001'041b     0x4  Code  Lc  fsl_dmamux.o [1]
+CLOCK_EnableClock       0x6001'04cd     0x4  Code  Lc  fsl_edma.o [1]
+CLOCK_EnableClock       0x6001'1723     0x4  Code  Lc  fsl_gpio.o [1]
+CLOCK_EnableClock       0x6000'f849     0x4  Code  Lc  fsl_lpspi.o [1]
+CLOCK_EnableClock       0x6001'288d     0x4  Code  Lc  fsl_lpuart.o [1]
+CLOCK_EnableClock       0x6001'14e7     0x4  Code  Lc  pin_mux.o [1]
+CLOCK_GetDiv            0x6001'3ff1    0x2a  Code  Lc  board.o [1]
+CLOCK_GetFreq           0x6001'197d   0x12a  Code  Gb  fsl_clock.o [1]
+CLOCK_GetMux            0x6001'3fc7    0x2a  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x6001'401b    0x12  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x6001'1881    0x18  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPeriphClkFreq  0x6001'18db    0xa0  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllBypassRefClk
+                        0x6001'18c5    0x16  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllFreq        0x6001'1b29   0x172  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPllFreq::enetRefClkFreq
+                        0x6001'6ddc    0x10  Data  Lc  fsl_clock.o [1]
+CLOCK_GetRtcFreq        0x6001'1899     0x6  Code  Lc  fsl_clock.o [1]
+CLOCK_GetSysPfdFreq     0x6001'1c9d    0x58  Code  Gb  fsl_clock.o [1]
+CLOCK_GetUsb1PfdFreq    0x6001'1cf5    0x58  Code  Gb  fsl_clock.o [1]
+CLOCK_InitArmPll        0x6001'1aa9    0x40  Code  Gb  fsl_clock.o [1]
+CLOCK_InitSysPll        0x6001'1ae9    0x40  Code  Gb  fsl_clock.o [1]
+CLOCK_IsPllBypassed     0x6001'189f    0x10  Code  Lc  fsl_clock.o [1]
+CLOCK_IsPllEnabled      0x6001'18af    0x16  Code  Lc  fsl_clock.o [1]
+CLOCK_SetDiv            0x6001'41d1    0x60  Code  Lc  clock_config.o [1]
+CLOCK_SetDiv            0x6001'3a99    0x62  Code  Lc  main.o [1]
+CLOCK_SetMux            0x6001'4171    0x60  Code  Lc  clock_config.o [1]
+CLOCK_SetMux            0x6001'3a31    0x68  Code  Lc  main.o [1]
+CLOCK_SetRtcXtalFreq    0x6001'4237     0x6  Code  Lc  clock_config.o [1]
+CLOCK_SetXtalFreq       0x6001'4231     0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x2001'fc00           --   Gb  - Linker created -
+CSTACK$$Limit           0x2002'0000           --   Gb  - Linker created -
+ConfigureByteSwap       0x6000'8a5d    0x66  Code  Lc  spi_hcd.o [1]
+ConnectService          0x6000'ac35    0xb2  Code  Lc  driver_init.o [1]
+ConvertRadixNumToString
+                        0x6000'f555    0x7e  Code  Lc  fsl_str.o [1]
+Custom_Api_BitRateEvent_tx
+                        0x6000'e93f    0x32  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_BssInfoEvent
+                        0x6000'e69f   0x16e  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_ConnectEvent
+                        0x6000'e80d    0x58  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_Dhcpc_Success_Callback_Event
+                        0x6000'cec9    0x1c  Code  Gb  cust_api_stack_offload.o [1]
+Custom_Api_Dhcps_Success_Callback_Event
+                        0x6000'ceaf    0x1a  Code  Gb  cust_api_stack_offload.o [1]
+Custom_Api_DisconnectEvent
+                        0x6000'e865    0x5e  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_GetDriverCxt
+                        0x6000'87e1     0x8  Code  Gb  cust_api_init.o [1]
+Custom_Api_GpioDataEvent
+                        0x6000'e8db    0x10  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_Http_Post_Event
+                        0x6000'cee5    0x20  Code  Gb  cust_api_stack_offload.o [1]
+Custom_Api_Initialize   0x6000'86ed    0xe8  Code  Lc  cust_api_init.o [1]
+Custom_Api_Join         0x6000'86a1    0x14  Code  Lc  cust_api_init.o [1]
+Custom_Api_Mediactl     0x6000'3965   0x47e  Code  Gb  cust_api_ioctl.o [1]
+Custom_Api_Ota_Resp_Result
+                        0x6000'cf39    0x2e  Code  Gb  cust_api_stack_offload.o [1]
+Custom_Api_PfmDataDoneEvent
+                        0x6000'e8fb    0x16  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_PfmDataEvent
+                        0x6000'e8eb    0x10  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_ProbeReq_Event
+                        0x6000'e97d    0x2a  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_RSNASuccessEvent
+                        0x6000'e911    0x2e  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_Readmii      0x6000'8679    0x14  Code  Lc  cust_api_init.o [1]
+Custom_Api_ReadyEvent   0x6000'e8c3    0x18  Code  Gb  cust_api_wmi_rx.o [1]
+Custom_Api_Rejoin       0x6000'86b5    0x14  Code  Lc  cust_api_init.o [1]
+Custom_Api_Send         0x6000'dc7d     0x4  Code  Gb  cust_api_stack_txrx.o [1]
+Custom_Api_Shutdown     0x6000'87d5     0xc  Code  Lc  cust_api_init.o [1]
+Custom_Api_Writemii     0x6000'868d    0x14  Code  Lc  cust_api_init.o [1]
+Custom_DeliverFrameToNetworkStack
+                        0x6000'dd25    0x18  Code  Gb  cust_api_stack_txrx.o [1]
+Custom_Driver_ContextInit
+                        0x6000'ab6d    0xae  Code  Gb  cust_driver_main.o [1]
+Custom_FreeRxRequest    0x6000'ab01     0x2  Code  Lc  cust_driver_main.o [1]
+Custom_GetRxRequest     0x6000'ab03    0x6a  Code  Gb  cust_driver_main.o [1]
+DMA0_DMA16_DriverIRQHandler
+                        0x6001'09f9    0x36  Code  Gb  fsl_edma.o [1]
+DMA10_DMA26_DriverIRQHandler
+                        0x6001'0c21    0x32  Code  Gb  fsl_edma.o [1]
+DMA11_DMA27_DriverIRQHandler
+                        0x6001'0c53    0x32  Code  Gb  fsl_edma.o [1]
+DMA12_DMA28_DriverIRQHandler
+                        0x6001'0c85    0x32  Code  Gb  fsl_edma.o [1]
+DMA13_DMA29_DriverIRQHandler
+                        0x6001'0cb7    0x32  Code  Gb  fsl_edma.o [1]
+DMA14_DMA30_DriverIRQHandler
+                        0x6001'0ce9    0x32  Code  Gb  fsl_edma.o [1]
+DMA15_DMA31_DriverIRQHandler
+                        0x6001'0d1b    0x32  Code  Gb  fsl_edma.o [1]
+DMA1_DMA17_DriverIRQHandler
+                        0x6001'0a2f    0x36  Code  Gb  fsl_edma.o [1]
+DMA2_DMA18_DriverIRQHandler
+                        0x6001'0a65    0x36  Code  Gb  fsl_edma.o [1]
+DMA3_DMA19_DriverIRQHandler
+                        0x6001'0a9b    0x36  Code  Gb  fsl_edma.o [1]
+DMA4_DMA20_DriverIRQHandler
+                        0x6001'0ad1    0x36  Code  Gb  fsl_edma.o [1]
+DMA5_DMA21_DriverIRQHandler
+                        0x6001'0b0d    0x36  Code  Gb  fsl_edma.o [1]
+DMA6_DMA22_DriverIRQHandler
+                        0x6001'0b45    0x36  Code  Gb  fsl_edma.o [1]
+DMA7_DMA23_DriverIRQHandler
+                        0x6001'0b7d    0x36  Code  Gb  fsl_edma.o [1]
+DMA8_DMA24_DriverIRQHandler
+                        0x6001'0bb3    0x36  Code  Gb  fsl_edma.o [1]
+DMA9_DMA25_DriverIRQHandler
+                        0x6001'0bed    0x34  Code  Gb  fsl_edma.o [1]
+DMAMUX_EnableChannel    0x6000'ddb1    0x2a  Code  Lc  wifi_spi.o [1]
+DMAMUX_GetInstance      0x6001'041f    0x28  Code  Lc  fsl_dmamux.o [1]
+DMAMUX_Init             0x6001'0447    0x12  Code  Gb  fsl_dmamux.o [1]
+DMAMUX_SetSource        0x6000'dddb    0x32  Code  Lc  wifi_spi.o [1]
+DbgConsole_Getchar      0x6000'da7f     0xe  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Init         0x6000'da19    0x2e  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x6000'da51    0x2e  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_RelocateLog  0x6000'da8d    0x3c  Code  Lc  fsl_debug_console.o [1]
+DisableGlobalIRQ        0x6001'04e9     0x8  Code  Lc  fsl_edma.o [1]
+DoDMAOp                 0x6000'8ac9    0xb0  Code  Lc  spi_hcd.o [1]
+DoPioReadInternal       0x6000'882d    0x32  Code  Lc  spi_hcd.o [1]
+DoPioWriteInternal      0x6000'8801    0x2c  Code  Lc  spi_hcd.o [1]
+Driver_BootComm         0x6000'b08f    0xea  Code  Gb  driver_init.o [1]
+Driver_CompleteRequest  0x6000'50b5    0x4c  Code  Gb  driver_main.o [1]
+Driver_ContextInit      0x6000'adef    0xdc  Code  Gb  driver_init.o [1]
+Driver_CreateThread     0x6000'540f    0x3e  Code  Gb  driver_main.o [1]
+Driver_DeInit           0x6000'afe9    0x64  Code  Gb  driver_init.o [1]
+Driver_DestroyThread    0x6000'544d    0x12  Code  Gb  driver_main.o [1]
+Driver_DropTxDataPackets
+                        0x6000'52e5    0x68  Code  Gb  driver_main.o [1]
+Driver_DumpAssertInfo   0x6000'3f7b    0x94  Code  Gb  driver_diag.o [1]
+Driver_GetTargetInfo    0x6000'b04d    0x3e  Code  Gb  driver_init.o [1]
+Driver_Init             0x6000'aecb   0x11e  Code  Gb  driver_init.o [1]
+Driver_Main             0x6000'4f45   0x156  Code  Gb  driver_main.o [1]
+Driver_PostProcessRequest
+                        0x6000'a32d    0x22  Code  Lc  driver_txrx.o [1]
+Driver_ReadDataDiag     0x6000'3f27    0x2a  Code  Gb  driver_diag.o [1]
+Driver_ReadRegDiag      0x6000'3e9f    0x44  Code  Gb  driver_diag.o [1]
+Driver_RecvPacket       0x6000'a425    0x3c  Code  Gb  driver_txrx.o [1]
+Driver_ReportRxBuffStatus
+                        0x6000'509b    0x1a  Code  Gb  driver_main.o [1]
+Driver_RxComplete       0x6000'a2d9    0x3e  Code  Gb  driver_txrx.o [1]
+Driver_RxReady          0x6000'51f5    0xec  Code  Gb  driver_main.o [1]
+Driver_SendPacket       0x6000'a3c9    0x5c  Code  Gb  driver_txrx.o [1]
+Driver_SetAddressWindowRegister
+                        0x6000'3e0d    0x92  Code  Lc  driver_diag.o [1]
+Driver_SubmitTxRequest  0x6000'a34f    0x6e  Code  Gb  driver_txrx.o [1]
+Driver_TargReset        0x6000'b08b     0x4  Code  Lc  driver_init.o [1]
+Driver_TxComplete       0x6000'a317    0x16  Code  Lc  driver_txrx.o [1]
+Driver_TxReady          0x6000'5101    0xf0  Code  Gb  driver_main.o [1]
+Driver_WaitForCondition
+                        0x6000'534d    0x3e  Code  Gb  driver_main.o [1]
+Driver_WakeDriver       0x6000'545f     0x8  Code  Gb  driver_main.o [1]
+Driver_WakeUser         0x6000'5467     0x8  Code  Gb  driver_main.o [1]
+Driver_WriteDataDiag    0x6000'3f51    0x2a  Code  Gb  driver_diag.o [1]
+Driver_WriteRegDiag     0x6000'3ee3    0x44  Code  Gb  driver_diag.o [1]
+EDMA_CreateHandle       0x6001'07dd    0x90  Code  Gb  fsl_edma.o [1]
+EDMA_EnableChannelInterrupts
+                        0x6001'0629    0x5e  Code  Gb  fsl_edma.o [1]
+EDMA_GetChannelStatusFlags
+                        0x6001'0789    0x42  Code  Gb  fsl_edma.o [1]
+EDMA_GetDefaultConfig   0x6001'0577    0x28  Code  Gb  fsl_edma.o [1]
+EDMA_GetInstance        0x6001'04f7    0x2e  Code  Lc  fsl_edma.o [1]
+EDMA_GetInstance        0x6000'de0d    0x2e  Code  Lc  wifi_spi.o [1]
+EDMA_HandleIRQ          0x6001'0935    0xbe  Code  Gb  fsl_edma.o [1]
+EDMA_Init               0x6001'0525    0x52  Code  Gb  fsl_edma.o [1]
+EDMA_LpspiMasterCallback
+                        0x6001'137d    0x96  Code  Lc  fsl_lpspi_edma.o [1]
+EDMA_ResetChannel       0x6001'059f    0x2a  Code  Gb  fsl_edma.o [1]
+EDMA_SetCallback        0x6001'086d    0x24  Code  Gb  fsl_edma.o [1]
+EDMA_SetTransferConfig  0x6001'05c9    0x60  Code  Gb  fsl_edma.o [1]
+EDMA_StartTransfer      0x6001'08b1    0x76  Code  Gb  fsl_edma.o [1]
+EDMA_TcdReset           0x6001'0687    0x52  Code  Gb  fsl_edma.o [1]
+EDMA_TcdSetTransferConfig
+                        0x6001'06d9    0xb0  Code  Gb  fsl_edma.o [1]
+ENET_0                  0x6001'729c     0x8  Data  Gb  wlan_qca400x.o [1]
+ENET_default_params     0x6001'6cec    0x14  Data  Gb  wlan_qca400x.o [1]
+EnableDisableSPIIRQHwDetect
+                        0x6000'885f    0x6e  Code  Lc  spi_hcd.o [1]
+EnableGlobalIRQ         0x6001'04f1     0x6  Code  Lc  fsl_edma.o [1]
+EnableIRQ               0x6001'04d1    0x18  Code  Lc  fsl_edma.o [1]
+EnableIRQ               0x6000'f84d    0x18  Code  Lc  fsl_lpspi.o [1]
+EnableIRQ               0x6000'ec31    0x18  Code  Lc  wifi_shield.o [1]
+GPIO1_Combined_16_31_IRQHandler
+                        0x6000'ed87    0x22  Code  Gb  wifi_shield.o [1]
+GPIO_GetInstance        0x6001'1729    0x2c  Code  Lc  fsl_gpio.o [1]
+GPIO_PinInit            0x6001'1755    0x52  Code  Gb  fsl_gpio.o [1]
+GPIO_PinSetInterruptConfig
+                        0x6001'1801    0x80  Code  Gb  fsl_gpio.o [1]
+GPIO_PinWrite           0x6001'17a7    0x3a  Code  Gb  fsl_gpio.o [1]
+GPIO_PortClear          0x6000'ec4f     0x6  Code  Lc  wifi_shield.o [1]
+GPIO_PortClearInterruptFlags
+                        0x6000'ec61     0x4  Code  Lc  wifi_shield.o [1]
+GPIO_PortEnableInterrupts
+                        0x6000'ec55     0x8  Code  Lc  wifi_shield.o [1]
+GPIO_PortGetInterruptFlags
+                        0x6000'ec5d     0x4  Code  Lc  wifi_shield.o [1]
+GPIO_PortSet            0x6000'ec49     0x6  Code  Lc  wifi_shield.o [1]
+GPIO_SetPinInterruptConfig
+                        0x6001'1727     0x2  Code  Lc  fsl_gpio.o [1]
+Get_StartInstance       0x6001'07cb    0x12  Code  Lc  fsl_edma.o [1]
+Get_StartInstance::StartInstanceNum
+                        0x2000'5921     0x1  Data  Lc  fsl_edma.o [1]
+HTC_ConnectService      0x6000'a9dd    0xde  Code  Gb  htc.o [1]
+HTC_ProcessCpuInterrupt
+                        0x6000'a68d    0x74  Code  Gb  htc.o [1]
+HTC_Start               0x6000'aabb    0x30  Code  Gb  htc.o [1]
+HTC_WaitTarget          0x6000'a98b    0x52  Code  Gb  htc.o [1]
+HW_EnableDisableIRQ     0x6000'9269     0x2  Code  Gb  spi_hcd.o [1]
+HW_EnableDisableSPIIRQ  0x6000'916b    0x4c  Code  Gb  spi_hcd.o [1]
+HW_GetMboxAddress       0x6000'a2a1    0x2a  Code  Gb  hw_api.o [1]
+HW_InterruptHandler     0x6000'a27b    0x24  Code  Gb  hw_api.o [1]
+HW_PowerUpDown          0x6000'a245    0x36  Code  Gb  hw_api.o [1]
+HW_ProcessPendingInterrupts
+                        0x6000'a1ad    0x98  Code  Gb  hw_api.o [1]
+HW_SetClock             0x6000'a29f     0x2  Code  Gb  hw_api.o [1]
+HandleExternalReadDone  0x6000'88fb    0x38  Code  Lc  spi_hcd.o [1]
+Hcd_BusInterrupt        0x6000'8d55   0x188  Code  Gb  spi_hcd.o [1]
+Hcd_ClearCPUInterrupt   0x6000'8cf1    0x38  Code  Gb  spi_hcd.o [1]
+Hcd_Deinitialize        0x6000'8f13    0x16  Code  Gb  spi_hcd.o [1]
+Hcd_DoPioExternalAccess
+                        0x6000'893d    0xfc  Code  Gb  spi_hcd.o [1]
+Hcd_DoPioInternalAccess
+                        0x6000'8933     0xa  Code  Gb  spi_hcd.o [1]
+Hcd_GetLookAhead        0x6000'8f29    0xa0  Code  Gb  spi_hcd.o [1]
+Hcd_Init                0x6000'8fc9   0x19c  Code  Gb  spi_hcd.o [1]
+Hcd_ProgramWriteBufferWaterMark
+                        0x6000'8b79    0xb8  Code  Gb  spi_hcd.o [1]
+Hcd_ReadCPUInterrupt    0x6000'8cab    0x46  Code  Gb  spi_hcd.o [1]
+Hcd_RefreshWriteBufferSpace
+                        0x6000'8c35    0x1c  Code  Gb  spi_hcd.o [1]
+Hcd_ReinitTarget        0x6000'8edd    0x36  Code  Gb  spi_hcd.o [1]
+Hcd_Request             0x6000'8c51    0x5a  Code  Gb  spi_hcd.o [1]
+Hcd_TransferData        0x6000'9169     0x2  Code  Lc  spi_hcd.o [1]
+Hcd_UnmaskInterrupts    0x6000'8d29    0x2c  Code  Gb  spi_hcd.o [1]
+Htc_DistributeCredits   0x6000'a5c5    0x4e  Code  Lc  htc.o [1]
+Htc_GetCreditCounterUpdate
+                        0x6000'a577    0x4e  Code  Gb  htc.o [1]
+Htc_PrepareRecvPacket   0x6000'a4c5    0x3a  Code  Gb  htc.o [1]
+Htc_ProcessCreditRpt    0x6000'a613    0x7a  Code  Lc  htc.o [1]
+Htc_ProcessRecvHeader   0x6000'a875   0x116  Code  Gb  htc.o [1]
+Htc_ProcessTrailer      0x6000'a701    0xd4  Code  Lc  htc.o [1]
+Htc_ProcessTxComplete   0x6000'a86d     0x8  Code  Gb  htc.o [1]
+Htc_ReadCreditCounter   0x6000'a527    0x50  Code  Gb  htc.o [1]
+Htc_RxComplete          0x6000'a4ff    0x28  Code  Gb  htc.o [1]
+Htc_SendPacket          0x6000'a7d9    0x94  Code  Gb  htc.o [1]
+IOMUXC_SetPinConfig     0x6001'1507     0xc  Code  Lc  pin_mux.o [1]
+IOMUXC_SetPinMux        0x6001'14eb    0x1c  Code  Lc  pin_mux.o [1]
+IO_Init                 0x6001'1e8d    0x52  Code  Gb  fsl_io.o [1]
+IO_Transfer             0x6001'1edf    0x2a  Code  Gb  fsl_io.o [1]
+Install_static_wep_keys
+                        0x6000'72d9    0xa4  Code  Lc  api_ioctl.o [1]
+LOG_Init                0x6000'f4b5    0x1a  Code  Gb  fsl_log.o [1]
+LOG_Pop                 0x6000'f4f1    0x1a  Code  Gb  fsl_log.o [1]
+LOG_Push                0x6000'f4cf    0x22  Code  Gb  fsl_log.o [1]
+LOG_ReadCharacter       0x6000'f50b    0x2a  Code  Gb  fsl_log.o [1]
+LOG_ReadOneCharacter    0x6000'f541    0x14  Code  Lc  fsl_log.o [1]
+LPSPI1_DriverIRQHandler
+                        0x6001'030f    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI2_DriverIRQHandler
+                        0x6001'0333    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI3_DriverIRQHandler
+                        0x6001'0357    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI4_DriverIRQHandler
+                        0x6001'037b    0x24  Code  Gb  fsl_lpspi.o [1]
+LPSPI_CheckTransferArgument
+                        0x6000'fcc9    0x64  Code  Gb  fsl_lpspi.o [1]
+LPSPI_ClearStatusFlags  0x6000'f89b     0x4  Code  Lc  fsl_lpspi.o [1]
+LPSPI_ClearStatusFlags  0x6001'0d8f     0x4  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_CombineWriteData  0x6001'018d    0xb0  Code  Lc  fsl_lpspi.o [1]
+LPSPI_CommonIRQHandler  0x6001'02e9    0x26  Code  Lc  fsl_lpspi.o [1]
+LPSPI_DMA_MasterUserCallback
+                        0x6000'de3b    0x2c  Code  Lc  wifi_spi.o [1]
+LPSPI_DisableDMA        0x6001'0da5     0xa  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_DisableInterrupts
+                        0x6000'f8a7     0xa  Code  Lc  fsl_lpspi.o [1]
+LPSPI_DisableInterrupts
+                        0x6001'0d93     0xa  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_Enable            0x6000'f865    0x16  Code  Lc  fsl_lpspi.o [1]
+LPSPI_Enable            0x6001'0d65    0x16  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_EnableDMA         0x6001'0d9d     0x8  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_EnableInterrupts  0x6000'f89f     0x8  Code  Lc  fsl_lpspi.o [1]
+LPSPI_FlushFifo         0x6000'f8c9     0xe  Code  Lc  fsl_lpspi.o [1]
+LPSPI_FlushFifo         0x6001'0db7     0xe  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_GetInstance       0x6000'f8ef    0x34  Code  Gb  fsl_lpspi.o [1]
+LPSPI_GetRxFifoCount    0x6000'f893     0x8  Code  Lc  fsl_lpspi.o [1]
+LPSPI_GetRxFifoCount    0x6001'0d87     0x8  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_GetRxFifoSize     0x6000'f87f     0xc  Code  Lc  fsl_lpspi.o [1]
+LPSPI_GetRxFifoSize     0x6001'0d7b     0xc  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_GetRxRegisterAddress
+                        0x6001'0db3     0x4  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_GetStatusFlags    0x6000'f87b     0x4  Code  Lc  fsl_lpspi.o [1]
+LPSPI_GetTxFifoCount    0x6000'f88b     0x8  Code  Lc  fsl_lpspi.o [1]
+LPSPI_GetTxRegisterAddress
+                        0x6001'0daf     0x4  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_IsMaster          0x6000'f8c1     0x8  Code  Lc  fsl_lpspi.o [1]
+LPSPI_MasterGetDefaultConfig
+                        0x6000'fa21    0x60  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterInit        0x6000'f933    0xee  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterSetBaudRate
+                        0x6000'fab7    0xa2  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterSetDelayScaler
+                        0x6000'fb59    0x46  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterSetDelayTimes
+                        0x6000'fb9f    0xe0  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterTransferComplete
+                        0x6000'ffd1    0x3e  Code  Lc  fsl_lpspi.o [1]
+LPSPI_MasterTransferCreateHandle
+                        0x6000'fc7f    0x4a  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterTransferCreateHandleEDMA
+                        0x6001'0e53    0x7e  Code  Gb  fsl_lpspi_edma.o [1]
+LPSPI_MasterTransferEDMA
+                        0x6001'0ed5   0x4a6  Code  Gb  fsl_lpspi_edma.o [1]
+LPSPI_MasterTransferFillUpTxFifo
+                        0x6000'ff2f    0xa2  Code  Lc  fsl_lpspi.o [1]
+LPSPI_MasterTransferHandleIRQ
+                        0x6001'0019   0x122  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterTransferNonBlocking
+                        0x6000'fd35   0x1fa  Code  Gb  fsl_lpspi.o [1]
+LPSPI_MasterUserCallback
+                        0x6000'de67    0x2c  Code  Lc  wifi_spi.o [1]
+LPSPI_ReadData          0x6000'f8eb     0x4  Code  Lc  fsl_lpspi.o [1]
+LPSPI_ReadData          0x6001'0dd5     0x4  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_Reset             0x6000'fa81    0x16  Code  Gb  fsl_lpspi.o [1]
+LPSPI_SeparateEdmaReadData
+                        0x6001'0dd9    0x7a  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_SeparateReadData  0x6001'0241    0xa8  Code  Lc  fsl_lpspi.o [1]
+LPSPI_SetDummyData      0x6000'f923    0x10  Code  Gb  fsl_lpspi.o [1]
+LPSPI_SetFifoWatermarks
+                        0x6000'f8d7    0x10  Code  Lc  fsl_lpspi.o [1]
+LPSPI_SetFifoWatermarks
+                        0x6001'0dc5    0x10  Code  Lc  fsl_lpspi_edma.o [1]
+LPSPI_SetMasterSlaveMode
+                        0x6000'f8b1    0x10  Code  Lc  fsl_lpspi.o [1]
+LPSPI_SetOnePcsPolarity
+                        0x6000'fa97    0x20  Code  Lc  fsl_lpspi.o [1]
+LPSPI_WriteData         0x6000'f8e7     0x4  Code  Lc  fsl_lpspi.o [1]
+LPUART1_DriverIRQHandler
+                        0x6001'2c6d     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART2_DriverIRQHandler
+                        0x6001'2c79     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART3_DriverIRQHandler
+                        0x6001'2c8d     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART4_DriverIRQHandler
+                        0x6001'2c9d     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART5_DriverIRQHandler
+                        0x6001'2cb1     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART6_DriverIRQHandler
+                        0x6001'2cc1     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART7_DriverIRQHandler
+                        0x6001'2ccd     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART8_DriverIRQHandler
+                        0x6001'2cd9     0xc  Code  Gb  fsl_lpuart.o [1]
+LPUART_ClearStatusFlags
+                        0x6001'2b3b    0x30  Code  Gb  fsl_lpuart.o [1]
+LPUART_EnableRx         0x6001'1e77    0x16  Code  Lc  fsl_io.o [1]
+LPUART_EnableTx         0x6001'1e61    0x16  Code  Lc  fsl_io.o [1]
+LPUART_GetDefaultConfig
+                        0x6001'2aeb    0x40  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetInstance      0x6001'28a3    0x32  Code  Gb  fsl_lpuart.o [1]
+LPUART_GetStatusFlags   0x6001'2b2b    0x10  Code  Gb  fsl_lpuart.o [1]
+LPUART_Init             0x6001'28d5   0x216  Code  Gb  fsl_lpuart.o [1]
+LPUART_ReadBlocking     0x6001'2ba3    0xb6  Code  Gb  fsl_lpuart.o [1]
+LPUART_SoftwareReset    0x6001'2891    0x12  Code  Lc  fsl_lpuart.o [1]
+LPUART_WriteBlocking    0x6001'2b6b    0x38  Code  Gb  fsl_lpuart.o [1]
+LoadInt                 0x6000'd767    0x56  Code  Lc  xprintfsmall_nomb.o [2]
+MaskSPIInterrupts       0x6000'88cd    0x2e  Code  Lc  spi_hcd.o [1]
+OSA_EnterCritical       0x6000'5713    0x56  Code  Gb  wifi_env.o [1]
+OSA_ExitCritical        0x6000'5769    0x46  Code  Gb  wifi_env.o [1]
+PendSV_Handler          0x6000'f285          Code  Gb  portasm.o [1]
+Program_CountryCode     0x6000'6e8d   0x192  Code  Gb  api_ioctl.o [1]
+RW$$Base                0x2000'0000           --   Gb  - Linker created -
+RW$$Limit               0x2000'0168           --   Gb  - Linker created -
+Region$$Table$$Base     0x6001'64d4           --   Gb  - Linker created -
+Region$$Table$$Limit    0x6001'64f8           --   Gb  - Linker created -
+ResetWriteBufferWaterMark
+                        0x6000'8a39    0x24  Code  Lc  spi_hcd.o [1]
+SCB_DisableDCache       0x6001'3f75    0x52  Code  Lc  board.o [1]
+SCB_DisableDCache       0x6000'ebdf    0x52  Code  Lc  wifi_shield.o [1]
+SCB_DisableICache       0x6001'3f01    0x22  Code  Lc  board.o [1]
+SCB_EnableDCache        0x6001'3f23    0x52  Code  Lc  board.o [1]
+SCB_EnableDCache        0x6001'46eb    0x52  Code  Lc  system_MIMXRT1052.o [1]
+SCB_EnableICache        0x6001'3ed7    0x2a  Code  Lc  board.o [1]
+SCB_EnableICache        0x6001'46c1    0x2a  Code  Lc  system_MIMXRT1052.o [1]
+SOCK_EV_MASK_CLEAR      0x6000'5803    0x24  Code  Lc  api_stack_offload.o [1]
+SOCK_EV_MASK_SET        0x6000'57e1    0x22  Code  Lc  api_stack_offload.o [1]
+SOCK_EV_MASK_TEST       0x6000'5827    0x16  Code  Lc  api_stack_offload.o [1]
+SVC_Handler             0x6000'f2dd          Code  Gb  portasm.o [1]
+SetupServices           0x6000'ace7   0x108  Code  Lc  driver_init.o [1]
+StrFormatPrintf         0x6000'f5d3   0x21c  Code  Gb  fsl_str.o [1]
+Strrcl_ChipDown         0x6000'eb45    0x12  Code  Lc  storerecall.o [1]
+Strrcl_ChipUpFinish     0x6000'ea65    0x94  Code  Lc  storerecall.o [1]
+Strrcl_ChipUpStart      0x6000'eaf9    0x4c  Code  Lc  storerecall.o [1]
+Strrcl_Recall           0x6000'eb57    0x46  Code  Gb  storerecall.o [1]
+SysTick_Handler         0x6000'ccb5    0x28  Code  Gb  port.o [1]
+SystemCoreClock         0x2000'0110     0x4  Data  Gb  system_MIMXRT1052.o [1]
+SystemInit              0x6001'473d    0x8e  Code  Gb  system_MIMXRT1052.o [1]
+TxRawPacket             0x6000'7df9    0x8c  Code  Gb  api_ioctl.o [1]
+Util_AC2EndpointID      0x6000'a4b9     0xa  Code  Gb  util.o [1]
+Util_Ascii2Hex          0x6000'7dcb    0x2e  Code  Gb  api_ioctl.o [1]
+Util_Freq2ieee          0x6000'a473    0x42  Code  Gb  util.o [1]
+Util_GetEndpoint        0x6000'a461    0x12  Code  Gb  util.o [1]
+WIFIDRVS_SPI_DMA_Transfer
+                        0x6000'e049    0x6c  Code  Lc  wifi_spi.o [1]
+WIFIDRVS_SPI_GetDefaultConfig
+                        0x6000'e211    0x38  Code  Gb  wifi_spi.o [1]
+WIFIDRVS_SPI_GetSPIConfig
+                        0x6000'e249    0x6a  Code  Gb  wifi_spi.o [1]
+WIFIDRVS_SPI_IRQ_Transfer
+                        0x6000'e0b5    0x60  Code  Lc  wifi_spi.o [1]
+WIFIDRVS_SPI_InOutBuffer
+                        0x6000'e305    0x5a  Code  Gb  wifi_spi.o [1]
+WIFIDRVS_SPI_InOutToken
+                        0x6000'e2b3    0x4e  Code  Gb  wifi_spi.o [1]
+WIFIDRVS_SPI_Init       0x6000'e173    0x9e  Code  Gb  wifi_spi.o [1]
+WIFIDRVS_SPI_InitDMAMode
+                        0x6000'debf   0x100  Code  Lc  wifi_spi.o [1]
+WIFIDRVS_SPI_InitIRQMode
+                        0x6000'de93    0x2c  Code  Lc  wifi_spi.o [1]
+WIFIDRVS_SPI_InitPeriph
+                        0x6000'dfbf    0x8a  Code  Lc  wifi_spi.o [1]
+WIFIDRVS_SPI_Transfer   0x6000'e115    0x5e  Code  Lc  wifi_spi.o [1]
+WIFISHIELD_DeinitDrivers
+                        0x6000'ed51     0x4  Code  Gb  wifi_shield.o [1]
+WIFISHIELD_Init         0x6000'ec65    0x54  Code  Gb  wifi_shield.o [1]
+WIFISHIELD_InitDrivers  0x6000'ecb9    0x98  Code  Gb  wifi_shield.o [1]
+WIFISHIELD_NotifyDriverTask
+                        0x6000'ed71    0x16  Code  Gb  wifi_shield.o [1]
+WIFISHIELD_PowerUp      0x6000'ed55    0x1c  Code  Gb  wifi_shield.o [1]
+ZI$$Base                0x2000'0168           --   Gb  - Linker created -
+ZI$$Limit               0x2000'5924           --   Gb  - Linker created -
+_LitobSmallNoMb         0x6000'd8f9    0xce  Code  Lc  xprintfsmall_nomb.o [2]
+_PrintfSmallNoMb        0x6000'd549   0x214  Code  Gb  xprintfsmall_nomb.o [2]
+_Prout                  0x6001'6b45    0x16  Code  Gb  xprout.o [2]
+_PutcharsSmallNoMb      0x6000'd9c7    0x2e  Code  Lc  xprintfsmall_nomb.o [2]
+_PutfldSmallNoMb        0x6000'd7bd   0x13c  Code  Lc  xprintfsmall_nomb.o [2]
+_SNProut                0x6000'4f0f    0x1a  Code  Gb  xsnprout.o [2]
+_SProut                 0x6000'4f3b     0xa  Code  Gb  xsprout.o [2]
+__NVIC_EnableIRQ        0x6001'0475    0x18  Code  Lc  fsl_edma.o [1]
+__NVIC_EnableIRQ        0x6000'f7f1    0x18  Code  Lc  fsl_lpspi.o [1]
+__NVIC_EnableIRQ        0x6000'ebad    0x16  Code  Lc  wifi_shield.o [1]
+__NVIC_SetPriority      0x6000'ebc3    0x1c  Code  Lc  wifi_shield.o [1]
+__NVIC_SetPriority      0x6000'dd91    0x20  Code  Lc  wifi_spi.o [1]
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                                0x0          Data  Gb  <internal module>
+__VECTOR_RAM {Abs}      0x6000'2000          Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}    0x6000'2000          Data  Gb  <internal module>
+__Vectors               0x6000'2000           --   Gb  startup_MIMXRT1052.o [1]
+__Vectors_End           0x6000'2400          Data  Gb  startup_MIMXRT1052.o [1]
+__Vectors_Size {Abs}          0x400           --   Gb  startup_MIMXRT1052.o [1]
+__aeabi_assert          0x6000'6e75    0x18  Code  Gb  fsl_assert.o [1]
+__aeabi_ldiv0           0x6001'2d29          Code  Gb  I64DivZer.o [4]
+__aeabi_memclr4         0x6000'dc75          Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy          0x6000'401d          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x6000'403d          Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x6000'403d          Code  Gb  ABImemcpy.o [4]
+__aeabi_memmove         0x6000'f335          Code  Gb  ABImemmove.o [4]
+__aeabi_memmove4        0x6000'f335          Code  Gb  ABImemmove.o [4]
+__aeabi_memmove8        0x6000'f335          Code  Gb  ABImemmove.o [4]
+__aeabi_memset          0x6000'85e9          Code  Gb  ABImemset.o [4]
+__aeabi_memset4         0x6000'4ed5          Code  Gb  ABImemset48.o [4]
+__aeabi_memset8         0x6000'4ed5          Code  Gb  ABImemset48.o [4]
+__aeabi_uldivmod        0x6001'1f15          Code  Gb  I64DivMod.o [4]
+__cmain                 0x6001'6679          Code  Gb  cmain.o [4]
+__exit                  0x6001'2839    0x14  Code  Gb  exit.o [5]
+__iar_Fail_s            0x6000'f3e5    0x1c  Code  Gb  xfail_s.o [2]
+__iar_Memchr            0x6000'f45d          Code  Gb  memchr.o [4]
+__iar_Memset            0x6000'85e9          Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x6000'4edd          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x6000'4edd          Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x6000'85f1          Code  Gb  ABImemset.o [4]
+__iar_Strchr            0x6000'f3cd          Code  Gb  strchr.o [4]
+__iar_copy_init3        0x6001'6221    0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x6001'638d    0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp          0x6001'64b1          Code  Gb  fpinit_M.o [3]
+__iar_program_start     0x6001'7199          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x6000'40c3    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init        0x6001'6697     0x4  Code  Gb  low_level_init.o [2]
+__vector_table          0x6000'2000          Data  Gb  startup_MIMXRT1052.o [1]
+__vector_table_0x1c     0x6000'201c          Data  Gb  startup_MIMXRT1052.o [1]
+__write                 0x6000'dac9    0x28  Code  Wk  fsl_debug_console.o [1]
+_call_main              0x6001'6685          Code  Gb  cmain.o [4]
+_exit                   0x6001'66a1          Code  Gb  cexit.o [4]
+_isConnected            0x2000'5923     0x1  Data  Gb  wlan_qcom.o [1]
+_main                   0x6001'6693          Code  Gb  cmain.o [4]
+_qcom_set_scan          0x6001'23bf    0xa4  Code  Gb  qcom_api.o [1]
+_traceQcomApi           0x2000'587c     0x4  Data  Lc  wlan_qcom.o [1]
+a_event_clear           0x6000'5609    0x32  Code  Gb  wifi_env.o [1]
+a_event_delete          0x6000'55bd    0x1e  Code  Gb  wifi_env.o [1]
+a_event_init            0x6000'55db    0x2e  Code  Gb  wifi_env.o [1]
+a_event_set             0x6000'563b    0x56  Code  Gb  wifi_env.o [1]
+a_event_wait            0x6000'5691    0x5e  Code  Gb  wifi_env.o [1]
+a_free                  0x6000'5489     0x4  Code  Gb  wifi_env.o [1]
+a_is_mutex_valid        0x6000'5587     0x4  Code  Gb  wifi_env.o [1]
+a_malloc                0x6000'548d    0x2e  Code  Gb  wifi_env.o [1]
+a_mutex_acquire         0x6000'54e5    0x42  Code  Gb  wifi_env.o [1]
+a_mutex_delete          0x6000'558b    0x32  Code  Gb  wifi_env.o [1]
+a_mutex_init            0x6000'54bb    0x2a  Code  Gb  wifi_env.o [1]
+a_mutex_release         0x6000'5527    0x60  Code  Gb  wifi_env.o [1]
+a_netbuf_alloc          0x6000'6aa7    0x62  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_alloc_raw      0x6000'6b47    0x52  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_append_fragment
+                        0x6000'6cb5    0x30  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_configure      0x6000'6d5d    0x2c  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_dequeue        0x6000'6d15    0x3e  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_dequeue_adv    0x6000'6a11    0x46  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_enqueue        0x6000'6ce5    0x30  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_free           0x6000'6b99    0x4c  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_free_rx_pool   0x6000'6be5    0x2a  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_free_tx_pool   0x6000'6c0f     0x2  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_get_fragment   0x6000'6c65    0x50  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_headroom       0x6000'6dfd     0xa  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_init           0x6000'6a8b    0x1c  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_pull           0x6000'6e11    0x2a  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_purge_queue    0x6000'6a57    0x34  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_push           0x6000'6d8d    0x2a  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_put            0x6000'6db7    0x2a  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_put_data       0x6000'6de1    0x1c  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_queue_init     0x6000'6d53     0xa  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_reinit         0x6000'6b09    0x36  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_set_rx_pool    0x6000'6b3f     0x8  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_tailroom       0x6000'6e07     0xa  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_to_data        0x6000'6d89     0x4  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_to_len         0x6000'6c11    0x54  Code  Gb  cust_driver_netbuf.o [1]
+a_netbuf_trim           0x6000'6e3b    0x2a  Code  Gb  cust_driver_netbuf.o [1]
+a_time_get_msec         0x6000'56ef    0x24  Code  Gb  wifi_env.o [1]
+abort                   0x6001'1e59     0x6  Code  Gb  abort.o [2]
+aggr_context            0x2000'5584    0x14  Data  Lc  rcv_aggr.o [1]
+aggr_deinit             0x6000'e9a9     0x2  Code  Gb  rcv_aggr.o [1]
+aggr_init               0x6000'e9ab     0xe  Code  Gb  rcv_aggr.o [1]
+aggr_recv_addba_req_evt
+                        0x6000'e9b9    0x42  Code  Gb  rcv_aggr.o [1]
+aggr_recv_delba_req_evt
+                        0x6000'e9fb    0x40  Code  Gb  rcv_aggr.o [1]
+aggr_reset_state        0x6000'ea3b    0x1a  Code  Gb  rcv_aggr.o [1]
+apConnect               0x6001'337d    0x94  Code  Gb  wlan_qcom.o [1]
+apConnectParamsPrint    0x6001'3191    0x90  Code  Lc  wlan_qcom.o [1]
+apDisconnect            0x6001'3411    0x18  Code  Gb  wlan_qcom.o [1]
+apScan                  0x6001'328d    0xe8  Code  Gb  wlan_qcom.o [1]
+ar4XXX_boot_param       0x2000'0004     0x4  Data  Gb  driver_init.o [1]
+ar4xx_reg_domain        0x2000'0210     0x4  Data  Gb  driver_init.o [1]
+armPllConfig_BOARD_BootClockRUN
+                        0x6001'71a4     0x8  Data  Gb  clock_config.o [1]
+ath_custom_htc          0x2000'0204     0xc  Data  Gb  cust_driver_main.o [1]
+ath_custom_init         0x2000'01c8    0x38  Data  Gb  cust_driver_main.o [1]
+ath_custom_mediactl     0x2000'0200     0x4  Data  Gb  cust_driver_main.o [1]
+ath_ioctl_handler       0x6000'2435  0x151c  Code  Gb  cust_api_ioctl.o [1]
+ath_sock_context        0x2000'016c    0x24  Data  Gb  api_stack_offload.o [1]
+atheros_wifi_task_id    0x2000'0218     0x4  Data  Gb  driver_main.o [1]
+blockForDataRx          0x6000'68a9     0xa  Code  Gb  api_stack_offload.o [1]
+blockForResponse        0x6000'68b3    0xba  Code  Gb  api_stack_offload.o [1]
+bmiBufferReceive        0x6000'7f51    0xaa  Code  Lc  bmi.o [1]
+bmiBufferReceive{3}{4}::word_available
+                        0x2000'01a4     0x4  Data  Lc  bmi.o [1]
+bmiBufferSend           0x6000'7e85    0xcc  Code  Lc  bmi.o [1]
+bmiDone                 0x2000'0164     0x1  Data  Lc  bmi.o [1]
+boot_data               0x6000'1020    0x10  Data  Gb  fsl_flexspi_nor_boot.o [1]
+chip_state_ctrl         0x6000'86c9    0x24  Code  Gb  cust_api_init.o [1]
+clear_socket_context    0x6000'676b    0x7a  Code  Gb  api_stack_offload.o [1]
+config_dump_target_assert_info
+                        0x6000'2401    0x34  Code  Lc  cust_api_ioctl.o [1]
+const_wps_error_code_translation
+                        0x6001'71cc     0x8  Data  Gb  cust_api_ioctl.o [1]
+countryCode_storge      0x2000'0168     0x4  Data  Gb  api_ioctl.o [1]
+custom_alloc            0x6000'd497    0x3e  Code  Gb  cust_api_stack_offload.o [1]
+custom_free             0x6000'd4d5    0x28  Code  Gb  cust_api_stack_offload.o [1]
+custom_ip_resolve_hostname
+                        0x6000'cf05    0x34  Code  Gb  cust_api_stack_offload.o [1]
+custom_qapi             0x6001'2d2b   0x20a  Code  Gb  custom_qcom_api.o [1]
+custom_receive_tcpip    0x6000'dc99    0x82  Code  Gb  cust_api_stack_txrx.o [1]
+custom_send_tcpip       0x6000'dd3d    0x52  Code  Gb  cust_api_stack_txrx.o [1]
+custom_sock_is_pending  0x6000'dc81    0x18  Code  Gb  cust_api_stack_txrx.o [1]
+dcd_data                0x6000'1030   0x430  Data  Gb  evkbimxrt1050_sdram_ini_dcd.o [1]
+default_scan_param      0x6001'6b5c    0x14  Data  Gb  api_init.o [1]
+default_strrcl_config_cmd
+                        0x6000'864e     0x2  Data  Gb  api_init.o [1]
+devId                   0x2000'586c     0x4  Data  Lc  wlan_qcom.o [1]
+dhcpc_success_callback  0x2000'01c4     0x4  Data  Gb  cust_api_stack_offload.o [1]
+dhcps_success_callback  0x2000'01c0     0x4  Data  Gb  cust_api_stack_offload.o [1]
+dns_block_time          0x2000'0000     0x4  Data  Gb  cust_api_stack_offload.o [1]
+dset_fill               0x6000'a11b    0x38  Code  Gb  dset.o [1]
+dset_find               0x6000'a039    0x20  Code  Gb  dset.o [1]
+dset_find_handle        0x6000'85c5    0x1e  Code  Gb  dset_api.o [1]
+dset_get                0x6000'a091    0x46  Code  Gb  dset.o [1]
+dset_get_first          0x6000'a153    0x24  Code  Gb  dset.o [1]
+dset_get_next           0x6000'a177    0x2e  Code  Gb  dset.o [1]
+dset_handles            0x2000'02e0   0x140  Data  Gb  dset_api.o [1]
+dset_insert             0x6000'a059    0x38  Code  Gb  dset.o [1]
+dset_length             0x2000'0198     0x4  Data  Gb  api_wmi_rx.o [1]
+dset_read               0x6000'a0f7    0x24  Code  Gb  dset.o [1]
+dset_write              0x6000'a0d7    0x20  Code  Gb  dset.o [1]
+event                   0x2000'573c     0x4  Data  Lc  wifi_spi.o [1]
+exit                    0x6001'669b     0x4  Code  Gb  exit.o [2]
+fill_ext_scan_info      0x6000'e53b   0x164  Code  Lc  cust_api_wmi_rx.o [1]
+fill_scan_info          0x6000'e3e1   0x15a  Code  Lc  cust_api_wmi_rx.o [1]
+find_socket_context     0x6000'5873    0x28  Code  Gb  api_stack_offload.o [1]
+find_socket_context_from_ssl
+                        0x6000'5851    0x22  Code  Gb  api_stack_offload.o [1]
+g_auth                  0x2000'0165     0x1  Data  Gb  main.o [1]
+g_base_priority_array   0x2000'5714    0x20  Data  Lc  wifi_env.o [1]
+g_base_priority_top     0x2000'5734     0x4  Data  Lc  wifi_env.o [1]
+g_cipher                0x2000'0166     0x1  Data  Gb  main.o [1]
+g_dma_chunk             0x2000'0114     0x4  Data  Lc  wifi_spi.o [1]
+g_dma_irqs              0x2000'0118    0x40  Data  Lc  wifi_spi.o [1]
+g_driverState           0x2000'5920     0x1  Data  Gb  cust_driver_netbuf.o [1]
+g_irq_threshold         0x2000'5850     0x4  Data  Lc  wifi_spi.o [1]
+g_lpspiDummyData        0x2000'04cc     0x8  Data  Gb  fsl_lpspi.o [1]
+g_lpspi_edma_m_handle   0x2000'5740    0xa4  Data  Lc  wifi_spi.o [1]
+g_m_handle              0x2000'5814    0x34  Data  Lc  wifi_spi.o [1]
+g_passphrase            0x2000'002c    0x44  Data  Gb  main.o [1]
+g_rtcXtalFreq           0x2000'0424     0x4  Data  Gb  fsl_clock.o [1]
+g_spi_base              0x2000'5848     0x4  Data  Lc  wifi_spi.o [1]
+g_spi_irqs              0x2000'0158     0xc  Data  Lc  wifi_spi.o [1]
+g_ssid                  0x2000'0008    0x24  Data  Gb  main.o [1]
+g_totAlloc              0x2000'021c     0x4  Data  Gb  driver_main.o [1]
+g_xfer_cs               0x2000'584c     0x4  Data  Lc  wifi_spi.o [1]
+g_xtalFreq              0x2000'0420     0x4  Data  Gb  fsl_clock.o [1]
+getDhcp                 0x6001'2f9d    0xc8  Code  Gb  wlan_qcom.o [1]
+getSecurityStr          0x6001'3221    0x6c  Code  Lc  wlan_qcom.o [1]
+getSecurityStr::s       0x2000'5880    0x64  Data  Lc  wlan_qcom.o [1]
+get_p2p_ctx             0x6000'9c39     0x2  Code  Gb  api_wmi_rx.o [1]
+get_p2p_prov_disc_req   0x6000'9c3b     0x2  Code  Gb  api_wmi_rx.o [1]
+get_p2p_serv_disc_req   0x6000'9c3d     0x2  Code  Gb  api_wmi_rx.o [1]
+get_total_pkts_buffered
+                        0x6000'd4fd    0x1c  Code  Gb  cust_api_stack_offload.o [1]
+gs_hostname             0x2000'58f8    0x10  Data  Lc  wlan_qcom.o [1]
+header_end              0x6001'72f4     0x8  Data  Lc  wlan_qcom.o [1]
+header_start            0x6001'4980    0x88  Data  Lc  wlan_qcom.o [1]
+host_dsets              0x2000'0220    0xc0  Data  Gb  dset.o [1]
+httpGet                 0x6001'36a9   0x1d8  Code  Gb  wlan_qcom.o [1]
+hyperflash_config       0x6000'0000   0x200  Data  Gb  evkbimxrt1050_flexspi_nor_config.o [1]
+image_vector_table      0x6000'1000    0x20  Data  Gb  fsl_flexspi_nor_boot.o [1]
+initTime                0x2000'5868     0x4  Data  Gb  wlan_qca400x.o [1]
+ipv4                    0x2000'5870     0xc  Data  Gb  wlan_qcom.o [1]
+isConnected             0x6001'3189     0x8  Code  Gb  wlan_qcom.o [1]
+isQcomError             0x6001'2f41    0x2a  Code  Lc  wlan_qcom.o [1]
+isSocketBlocked         0x6000'696d     0x6  Code  Gb  api_stack_offload.o [1]
+isValueFailed           0x6001'2f6b    0x32  Code  Lc  wlan_qcom.o [1]
+last_driver_error       0x2000'0214     0x4  Data  Gb  driver_init.o [1]
+lpspiEdmaMasterRxRegToRxDataHandle
+                        0x2000'57e4    0x18  Data  Lc  wifi_spi.o [1]
+lpspiEdmaMasterTxDataToTxRegHandle
+                        0x2000'57fc    0x18  Data  Lc  wifi_spi.o [1]
+m_boot_hdr_conf_start {Abs}
+                        0x6000'0000          Data  Gb  <internal module>
+main                    0x6001'3d6f    0x54  Code  Gb  main.o [1]
+max_performance_power_param
+                        0x6001'2836     0x1  Data  Gb  api_init.o [1]
+memchr                  0x6000'f45d          Code  Gb  memchr.o [4]
+memcmp                  0x6001'1445          Code  Gb  memcmp.o [4]
+menuAction              0x6001'3c03    0x56  Code  Lc  main.o [1]
+menuAllStateMachine     0x6001'3b29    0x34  Code  Lc  main.o [1]
+menuConnectToAP         0x6001'3b01    0x10  Code  Lc  main.o [1]
+menuDisconnect          0x6001'3b11     0x4  Code  Lc  main.o [1]
+menuExtraHelp           0x6001'3baf    0x54  Code  Lc  main.o [1]
+menuGetHttp             0x6001'3b5d     0xa  Code  Lc  main.o [1]
+menuGetHttpGateway      0x6001'3b67     0xa  Code  Lc  main.o [1]
+menuItems               0x2000'0070    0x9c  Data  Gb  main.o [1]
+menuPingGateway         0x6001'3b1b     0x6  Code  Lc  main.o [1]
+menuPingSomeHost        0x6001'3b15     0x6  Code  Lc  main.o [1]
+menuPrint               0x6001'3c59    0x5a  Code  Lc  main.o [1]
+menuSeparator           0x6001'3b71    0x3e  Code  Lc  main.o [1]
+menuUdpServerStart      0x6001'3b21     0x8  Code  Lc  main.o [1]
+move_power_state_to_maxperf
+                        0x6000'6823    0x3a  Code  Gb  api_stack_offload.o [1]
+mutex                   0x2000'5738     0x4  Data  Lc  wifi_spi.o [1]
+next_dset_ndx           0x2000'591c     0x2  Data  Gb  dset.o [1]
+numIrqs                 0x2000'5864     0x4  Data  Gb  wlan_qca400x.o [1]
+onConnect               0x6001'30e1    0xa8  Code  Lc  wlan_qcom.o [1]
+p2p_go_neg_event        0x6000'9c25     0xc  Code  Gb  api_wmi_rx.o [1]
+p2p_invite_rcvd_result_ev
+                        0x6000'9c41     0x2  Code  Gb  api_wmi_rx.o [1]
+p2p_invite_req_rx       0x6000'9c3f     0x2  Code  Gb  api_wmi_rx.o [1]
+p2p_invite_sent_result_event
+                        0x6000'9c31     0x2  Code  Gb  api_wmi_rx.o [1]
+p2p_key_val             0x2000'5908    0x10  Data  Gb  wmi.o [1]
+p2p_list_persistent_network_event
+                        0x6000'9c35     0x2  Code  Gb  api_wmi_rx.o [1]
+p2p_node_list_event     0x6000'9c33     0x2  Code  Gb  api_wmi_rx.o [1]
+p2p_req_auth_event      0x6000'9c37     0x2  Code  Gb  api_wmi_rx.o [1]
+pBMICmdBuf              0x2000'01a0     0x4  Data  Lc  bmi.o [1]
+pBMICmdCredits          0x2000'019c     0x4  Data  Lc  bmi.o [1]
+p_Driver_Cxt            0x2000'01ac     0x8  Data  Gb  cust_api_init.o [1]
+p_Global_Cxt            0x2000'01a8     0x4  Data  Gb  cust_api_init.o [1]
+pingHost                0x6001'346d    0x64  Code  Gb  wlan_qcom.o [1]
+pollChar                0x6001'3cb3     0x4  Code  Lc  main.o [1]
+power_state_for_module  0x2000'0194     0x4  Data  Gb  api_stack_offload.o [1]
+printError              0x6001'2f37     0xa  Code  Lc  wlan_qcom.o [1]
+printHeapFree           0x6001'2f35     0x2  Code  Gb  wlan_qcom.o [1]
+printIpConfig           0x6001'3065    0x7c  Code  Gb  wlan_qcom.o [1]
+printSeparator          0x6001'3afb     0x6  Code  Lc  main.o [1]
+print_version           0x6001'3cb7    0x3a  Code  Lc  main.o [1]
+printf                  0x6000'8651    0x28  Code  Gb  printf.o [2]
+program_mac_addr        0x6000'70d1   0x204  Code  Lc  api_ioctl.o [1]
+prvAddCurrentTaskToDelayedList
+                        0x6000'bc79    0x70  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                        0x6000'b2e1    0x9e  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x6000'f1c3    0x44  Code  Lc  timers.o [1]
+prvCheckTasksWaitingTermination
+                        0x6000'b999    0x3c  Code  Lc  tasks.o [1]
+prvCopyDataFromQueue    0x6000'c733    0x26  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x6000'c6bd    0x76  Code  Lc  queue.o [1]
+prvDeleteTCB            0x6000'b9d5    0x14  Code  Lc  tasks.o [1]
+prvGetDisinheritPriorityAfterTimeout
+                        0x6000'c6a9    0x14  Code  Lc  queue.o [1]
+prvGetNextExpireTime    0x6000'efff    0x20  Code  Lc  timers.o [1]
+prvHeapInit             0x6000'be95    0x58  Code  Lc  heap_4.o [1]
+prvIdleTask             0x6000'b90d    0x22  Code  Lc  tasks.o [1]
+prvInitialiseMutex      0x6000'c057    0x14  Code  Lc  queue.o [1]
+prvInitialiseNewQueue   0x6000'c035    0x22  Code  Lc  queue.o [1]
+prvInitialiseNewTask    0x6000'b225    0xbc  Code  Lc  tasks.o [1]
+prvInitialiseTaskLists  0x6000'b939    0x52  Code  Lc  tasks.o [1]
+prvInsertBlockIntoFreeList
+                        0x6000'beed    0x58  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                        0x6000'f045    0x3e  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x6000'c7cb    0x18  Code  Lc  queue.o [1]
+prvIsQueueFull          0x6000'c7e3    0x1e  Code  Lc  queue.o [1]
+prvProcessExpiredTimer  0x6000'ef1f    0x5c  Code  Lc  timers.o [1]
+prvProcessReceivedCommands
+                        0x6000'f085    0xd0  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x6000'ef91    0x6e  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x6000'b9e9    0x24  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x6000'f01f    0x26  Code  Lc  timers.o [1]
+prvSampleTimeNow::xLastTime
+                        0x2000'5710     0x4  Data  Lc  timers.o [1]
+prvSwitchTimerLists     0x6000'f155    0x6e  Code  Lc  timers.o [1]
+prvTaskExitError        0x6000'cb69    0x2a  Code  Lc  port.o [1]
+prvTestWaitCondition    0x6000'cb13    0x1a  Code  Lc  event_groups.o [1]
+prvTimerTask            0x6000'ef7d    0x14  Code  Lc  timers.o [1]
+prvUnlockQueue          0x6000'c759    0x72  Code  Lc  queue.o [1]
+putchar                 0x6001'6659    0x20  Code  Gb  putchar.o [2]
+pvPortMalloc            0x6000'bd29   0x108  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x6000'bc43    0x16  Code  Gb  tasks.o [1]
+pxCurrentTCB            0x2000'5598     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x2000'5700     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x2000'5664     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x2000'5524     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x2000'5668     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x2000'5704     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x6000'cb41    0x28  Code  Gb  port.o [1]
+pxReadyTasksLists       0x2000'559c    0xa0  Data  Lc  tasks.o [1]
+qcom_bind               0x6001'21a5    0x1e  Code  Gb  qcom_api.o [1]
+qcom_commit             0x6001'2571    0x34  Code  Gb  qcom_api.o [1]
+qcom_connect            0x6001'2187    0x1e  Code  Gb  qcom_api.o [1]
+qcom_disconnect         0x6001'260f    0x46  Code  Gb  qcom_api.o [1]
+qcom_dns_server_address_get
+                        0x6001'226f    0x90  Code  Gb  qcom_api.o [1]
+qcom_dnsc_get_host_by_name
+                        0x6001'2213    0x5c  Code  Gb  qcom_api.o [1]
+qcom_get_phy_mode       0x6001'2655    0x70  Code  Gb  qcom_api.o [1]
+qcom_get_scan           0x6001'2463    0x44  Code  Gb  qcom_api.o [1]
+qcom_get_ssid           0x6001'24ed    0x48  Code  Gb  qcom_api.o [1]
+qcom_get_versionstr     0x6001'281d    0x1a  Code  Gb  qcom_api.o [1]
+qcom_ipconfig           0x6001'2363    0x3e  Code  Gb  qcom_api.o [1]
+qcom_op_get_mode        0x6001'25a5    0x36  Code  Gb  qcom_api.o [1]
+qcom_op_set_mode        0x6001'25db    0x34  Code  Gb  qcom_api.o [1]
+qcom_phy_mode_a         0x6000'dc7a     0x2  Data  Lc  qcom_api.o [1]
+qcom_phy_mode_b         0x6000'e9a6     0x2  Data  Lc  qcom_api.o [1]
+qcom_phy_mode_g         0x6000'dd8e     0x2  Data  Lc  qcom_api.o [1]
+qcom_phy_mode_mixed     0x6001'724c     0x8  Data  Lc  qcom_api.o [1]
+qcom_ping               0x6001'23a1    0x1e  Code  Gb  qcom_api.o [1]
+qcom_power_set_mode     0x6001'27c1    0x48  Code  Gb  qcom_api.o [1]
+qcom_recv               0x6001'21c3    0x1e  Code  Gb  qcom_api.o [1]
+qcom_recvfrom           0x6001'21e1    0x32  Code  Gb  qcom_api.o [1]
+qcom_sec_set_auth_mode  0x6001'26c9    0x34  Code  Gb  qcom_api.o [1]
+qcom_sec_set_encrypt_mode
+                        0x6001'26fd    0x66  Code  Gb  qcom_api.o [1]
+qcom_sec_set_passphrase
+                        0x6001'2763    0x5e  Code  Gb  qcom_api.o [1]
+qcom_send               0x6001'2331    0x1e  Code  Gb  qcom_api.o [1]
+qcom_sendto             0x6001'22ff    0x32  Code  Gb  qcom_api.o [1]
+qcom_set_connect_callback
+                        0x6001'2535    0x3c  Code  Gb  qcom_api.o [1]
+qcom_set_deviceid       0x6001'2145    0x26  Code  Gb  qcom_api.o [1]
+qcom_set_ssid           0x6001'24a7    0x46  Code  Gb  qcom_api.o [1]
+qcom_socket             0x6001'216b    0x1c  Code  Gb  qcom_api.o [1]
+qcom_socket_close       0x6001'234f    0x14  Code  Gb  qcom_api.o [1]
+query_credit_deficit    0x6000'82c1    0x2e  Code  Lc  api_txrx.o [1]
+queue_empty             0x6000'583d    0x14  Code  Gb  api_stack_offload.o [1]
+remAddr                 0x2000'58f0     0x8  Data  Lc  wlan_qcom.o [1]
+remAddrLen              0x2000'591e     0x2  Data  Lc  wlan_qcom.o [1]
+resolveHostname         0x6001'3429    0x44  Code  Gb  wlan_qcom.o [1]
+resolveManyHosts        0x6001'34d5    0x24  Code  Gb  wlan_qcom.o [1]
+restore_power_state     0x6000'685d    0x42  Code  Gb  api_stack_offload.o [1]
+rsn_auth_parse          0x6000'77f1    0x3e  Code  Lc  api_ioctl.o [1]
+rsn_cipher_parse        0x6000'7799    0x58  Code  Lc  api_ioctl.o [1]
+s_EDMAHandle            0x2000'0428    0x80  Data  Lc  fsl_edma.o [1]
+s_baudratePrescaler     0x6001'7204     0x8  Data  Lc  fsl_lpspi.o [1]
+s_debugConsoleIO        0x2000'04a8     0x8  Data  Lc  fsl_io.o [1]
+s_dmamuxClockName       0x6000'a4c2     0x2  Data  Lc  fsl_dmamux.o [1]
+s_edmaClockName         0x6000'c89a     0x2  Data  Lc  fsl_edma.o [1]
+s_edmaIRQNumber         0x6001'5be0    0x40  Data  Lc  fsl_edma.o [1]
+s_gpioBases             0x6001'68d4    0x18  Data  Lc  fsl_gpio.o [1]
+s_gpioClock             0x6001'7030     0xc  Data  Lc  fsl_gpio.o [1]
+s_lpspiBases            0x6001'6c10    0x14  Data  Lc  fsl_lpspi.o [1]
+s_lpspiClocks           0x6001'706c     0xc  Data  Lc  fsl_lpspi.o [1]
+s_lpspiHandle           0x2000'04b0    0x14  Data  Lc  fsl_lpspi.o [1]
+s_lpspiIRQ              0x6001'7060     0xc  Data  Lc  fsl_lpspi.o [1]
+s_lpspiMasterEdmaPrivateHandle
+                        0x2000'04d4    0x20  Data  Lc  fsl_lpspi_edma.o [1]
+s_lpspiMasterIsr        0x2000'04c4     0x4  Data  Lc  fsl_lpspi.o [1]
+s_lpspiSlaveIsr         0x2000'04c8     0x4  Data  Lc  fsl_lpspi.o [1]
+s_lpuartBases           0x6001'63fc    0x24  Data  Lc  fsl_lpuart.o [1]
+s_lpuartClock           0x6001'6c24    0x14  Data  Lc  fsl_lpuart.o [1]
+s_lpuartHandle          0x2000'04f4    0x24  Data  Lc  fsl_lpuart.o [1]
+s_lpuartIsr             0x2000'0518     0x4  Data  Lc  fsl_lpuart.o [1]
+scan_setup              0x6000'7c89   0x142  Code  Gb  api_ioctl.o [1]
+sec_hand                0x2000'5918     0x4  Data  Lc  xfail_s.o [2]
+security_ie_parse       0x6000'782f    0xe4  Code  Lc  api_ioctl.o [1]
+send_stack_init         0x6000'67e5    0x3e  Code  Gb  api_stack_offload.o [1]
+setup_host_dset         0x6000'538b     0x4  Code  Gb  driver_main.o [1]
+snprintf                0x6001'39ed    0x44  Code  Gb  snprintf.o [2]
+socket_context_init     0x6000'589b    0x8e  Code  Gb  api_stack_offload.o [1]
+sprintf                 0x6000'69d1    0x40  Code  Gb  sprintf.o [2]
+sslhandle               0x2000'0190     0x4  Data  Gb  api_stack_offload.o [1]
+state                   0x2000'553c     0x4  Data  Gb  main.o [1]
+strchr                  0x6000'f3cd          Code  Gb  strchr.o [4]
+strcmp                  0x6000'4f29          Code  Gb  strcmp.o [4]
+strcpy                  0x6000'd531          Code  Gb  strcpy.o [4]
+strlen                  0x6000'f425          Code  Gb  strlen.o [4]
+sysPllConfig_BOARD_BootClockRUN
+                        0x6001'6dbc    0x10  Data  Gb  clock_config.o [1]
+t_bind                  0x6000'cdf9    0x3a  Code  Gb  cust_api_stack_offload.o [1]
+t_connect               0x6000'cdbf    0x3a  Code  Gb  cust_api_stack_offload.o [1]
+t_ipconfig              0x6000'ce67    0x48  Code  Gb  cust_api_stack_offload.o [1]
+t_ping                  0x6000'cf67    0x3c  Code  Gb  cust_api_stack_offload.o [1]
+t_recv                  0x6000'd229    0x12  Code  Gb  cust_api_stack_offload.o [1]
+t_recvfrom              0x6000'd1e7    0x42  Code  Gb  cust_api_stack_offload.o [1]
+t_select                0x6000'ce33    0x34  Code  Gb  cust_api_stack_offload.o [1]
+t_send                  0x6000'cfa3    0x4e  Code  Gb  cust_api_stack_offload.o [1]
+t_sendto                0x6000'cff1   0x1f6  Code  Gb  cust_api_stack_offload.o [1]
+t_shutdown              0x6000'cd8f    0x30  Code  Gb  cust_api_stack_offload.o [1]
+t_socket                0x6000'cd55    0x3a  Code  Gb  cust_api_stack_offload.o [1]
+task_main               0x6001'3cf1    0x7e  Code  Gb  main.o [1]
+task_main_stack         0x2000'5534     0x4  Data  Gb  main.o [1]
+task_main_task_handler  0x2000'5538     0x4  Data  Gb  main.o [1]
+txpkt_free              0x6000'd481    0x16  Code  Gb  cust_api_stack_offload.o [1]
+ucHeap                  0x2000'051c  0x5000  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x2000'5922     0x1  Data  Lc  port.o [1]
+udpBind                 0x6001'352f    0x86  Code  Gb  wlan_qcom.o [1]
+udpHelp                 0x6001'34f9    0x36  Code  Lc  wlan_qcom.o [1]
+udpPollAndRecv          0x6001'35b5    0x9a  Code  Gb  wlan_qcom.o [1]
+udpRecvBuf              0x2000'58e8     0x4  Data  Lc  wlan_qcom.o [1]
+udpRecvBufLen           0x2000'58ec     0x4  Data  Lc  wlan_qcom.o [1]
+udpSendEcho             0x6001'364f    0x54  Code  Gb  wlan_qcom.o [1]
+udpSock                 0x2000'58e4     0x4  Data  Lc  wlan_qcom.o [1]
+ulMaxPRIGROUPValue      0x2000'5540     0x4  Data  Lc  port.o [1]
+unblock                 0x6000'6973    0x34  Code  Gb  api_stack_offload.o [1]
+unblockSelect           0x6000'69a7     0xe  Code  Gb  api_stack_offload.o [1]
+up_to_ac                0x6001'7304     0x8  Data  Gb  wmi.o [1]
+uxCriticalNesting       0x2000'010c     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x2000'56ac     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x2000'5694     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x6000'ee4d    0x26  Code  Gb  list.o [1]
+uxPendedTicks           0x2000'56bc     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x2000'56d4     0x4  Data  Lc  tasks.o [1]
+uxTaskGetNumberOfTasks  0x6000'b55b     0x6  Code  Gb  tasks.o [1]
+uxTaskNumber            0x2000'56c8     0x4  Data  Lc  tasks.o [1]
+uxTaskPriorityGet       0x6000'b3cb    0x1c  Code  Gb  tasks.o [1]
+uxTaskResetEventItemValue
+                        0x6000'bc2d    0x16  Code  Gb  tasks.o [1]
+uxTopReadyPriority      0x2000'56b4     0x4  Data  Lc  tasks.o [1]
+vEventGroupClearBitsCallback
+                        0x6000'cb11     0x2  Code  Gb  event_groups.o [1]
+vEventGroupDelete       0x6000'cacd    0x42  Code  Gb  event_groups.o [1]
+vEventGroupSetBitsCallback
+                        0x6000'cb0f     0x2  Code  Gb  event_groups.o [1]
+vListInitialise         0x6000'ede1    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem     0x6000'edfb     0x6  Code  Gb  list.o [1]
+vListInsert             0x6000'ee19    0x34  Code  Gb  list.o [1]
+vListInsertEnd          0x6000'ee01    0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x6000'f319          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x6000'cc5b    0x34  Code  Gb  port.o [1]
+vPortExitCritical       0x6000'cc8f    0x26  Code  Gb  port.o [1]
+vPortFree               0x6000'be31    0x64  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x6000'f251    0x34  Code  Wk  fsl_tickless_systick.o [1]
+vPortStartFirstTask     0x6000'f2f9          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x6000'ccdd    0x46  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x6000'c801    0x24  Code  Gb  queue.o [1]
+vQueueDelete            0x6000'c685    0x24  Code  Gb  queue.o [1]
+vQueueUnregisterQueue   0x6000'c825    0x24  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x6000'c851    0x4a  Code  Gb  queue.o [1]
+vTaskDelay              0x6000'b37f    0x4c  Code  Gb  tasks.o [1]
+vTaskInternalSetTimeOutState
+                        0x6000'b86d    0x12  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x6000'b903     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x6000'b6a1    0x30  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x6000'b721    0x3a  Code  Gb  tasks.o [1]
+vTaskPlaceOnUnorderedEventList
+                        0x6000'b6d1    0x50  Code  Gb  tasks.o [1]
+vTaskPriorityDisinheritAfterTimeout
+                        0x6000'bb7d    0xb0  Code  Gb  tasks.o [1]
+vTaskRemoveFromUnorderedEventList
+                        0x6000'b7f1    0x7c  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x6000'b3e7    0x70  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x6000'b457     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x6000'b63d    0x64  Code  Gb  tasks.o [1]
+wait_scan_done          0x6000'7c4d    0x3c  Code  Gb  api_ioctl.o [1]
+wifiCtx                 0x2000'5854    0x10  Data  Gb  wlan_qca400x.o [1]
+wlan_driver_start       0x6001'1dd5    0x5c  Code  Gb  wlan_qca400x.o [1]
+wlan_get_context        0x6001'1e31     0x4  Code  Gb  wlan_qca400x.o [1]
+wmi_ap_set_param        0x6000'4ac9    0xc0  Code  Gb  wmi.o [1]
+wmi_bssfilter_cmd       0x6000'4bc9    0x1e  Code  Gb  wmi.o [1]
+wmi_cmd_process         0x6000'db63    0x5a  Code  Lc  api_init.o [1]
+wmi_cmd_send            0x6000'4a5b    0x6e  Code  Gb  wmi.o [1]
+wmi_cmd_start           0x6000'4e01    0x48  Code  Gb  wmi.o [1]
+wmi_control_rx          0x6000'44bd   0x582  Code  Gb  wmi.o [1]
+wmi_control_rx_xtnd     0x6000'4401    0xbc  Code  Gb  wmi.o [1]
+wmi_data_hdr_add        0x6000'4287    0x90  Code  Gb  wmi.o [1]
+wmi_data_hdr_remove     0x6000'439d    0x26  Code  Gb  wmi.o [1]
+wmi_determine_userPriority
+                        0x6000'4317    0x16  Code  Lc  wmi.o [1]
+wmi_dset_host_cfg_cmd   0x6000'4e49    0x3c  Code  Gb  wmi.o [1]
+wmi_errorEvent_rx       0x6000'4a3f    0x1c  Code  Lc  wmi.o [1]
+wmi_implicit_create_pstream
+                        0x6000'432d    0x70  Code  Gb  wmi.o [1]
+wmi_init                0x6000'40fd    0x30  Code  Gb  wmi.o [1]
+wmi_meta_add            0x6000'41b7    0xd0  Code  Gb  wmi.o [1]
+wmi_p2p_goneg_result_event_rx
+                        0x6000'4c31    0x10  Code  Lc  wmi.o [1]
+wmi_p2p_invite_rcvd_result_rx
+                        0x6000'4ca1     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_invite_req_rx   0x6000'4c95     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_invite_sent_result_rx
+                        0x6000'4cad     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_list_peristent_network
+                        0x6000'4c4d     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_node_list_event_rx
+                        0x6000'4c65     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_prov_disc_req_rx
+                        0x6000'4c7d     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_prov_disc_resp_rx
+                        0x6000'4c71     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_req_auth_event_rx
+                        0x6000'4c59     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_sdpd_event_rx   0x6000'4c89     0xc  Code  Lc  wmi.o [1]
+wmi_p2p_set_noa         0x6000'4d65    0x84  Code  Gb  wmi.o [1]
+wmi_p2p_set_oppps       0x6000'4d2d    0x38  Code  Gb  wmi.o [1]
+wmi_qos_state_init      0x6000'412d    0x3a  Code  Gb  wmi.o [1]
+wmi_rateTable           0x6001'480c    0xe0  Data  Lc  cust_api_wmi_rx.o [1]
+wmi_sdpd_send_cmd       0x6000'4cb9    0x74  Code  Gb  wmi.o [1]
+wmi_set_appie_cmd       0x6000'4e85    0x50  Code  Gb  wmi.o [1]
+wmi_set_control_ep      0x6000'4167    0x28  Code  Gb  wmi.o [1]
+wmi_shutdown            0x6000'418f    0x28  Code  Gb  wmi.o [1]
+wmi_socket_cmd          0x6000'4be7    0x3e  Code  Gb  wmi.o [1]
+wmi_storerecall_recall_cmd
+                        0x6000'4b89    0x40  Code  Gb  wmi.o [1]
+wmi_test_ev_length      0x6000'43c3    0x3e  Code  Lc  wmi.o [1]
+wmi_test_ev_length::length_array
+                        0x6001'633c    0x28  Data  Lc  wmi.o [1]
+wmi_test_event_rx       0x6000'4c25     0xc  Code  Lc  wmi.o [1]
+wpa_auth_parse          0x6000'76f7    0x3e  Code  Lc  api_ioctl.o [1]
+wpa_cipher_parse        0x6000'7735    0x64  Code  Lc  api_ioctl.o [1]
+xActiveTimerList1       0x2000'56d8    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x2000'56ec    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x2000'5530     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x2000'563c    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x2000'5650    0x14  Data  Lc  tasks.o [1]
+xEventGroupClearBits    0x6000'c9d3    0x46  Code  Gb  event_groups.o [1]
+xEventGroupClearBitsFromISR
+                        0x6000'ca19     0xe  Code  Gb  event_groups.o [1]
+xEventGroupCreate       0x6000'c89d    0x1a  Code  Gb  event_groups.o [1]
+xEventGroupSetBits      0x6000'ca27    0xa6  Code  Gb  event_groups.o [1]
+xEventGroupSetBitsFromISR
+                        0x6000'cb2d     0xc  Code  Gb  event_groups.o [1]
+xEventGroupWaitBits     0x6000'c8b7   0x11c  Code  Gb  event_groups.o [1]
+xFreeBytesRemaining     0x2000'5528     0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x2000'56d0     0x4  Data  Lc  tasks.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x2000'552c     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x2000'56cc     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x2000'56c4     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x2000'566c    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x6000'cb93    0xc8  Code  Gb  port.o [1]
+xQueueCreateMutex       0x6000'c06b    0x16  Code  Gb  queue.o [1]
+xQueueGenericCreate     0x6000'bfef    0x46  Code  Gb  queue.o [1]
+xQueueGenericReset      0x6000'bf61    0x8e  Code  Gb  queue.o [1]
+xQueueGenericSend       0x6000'c09d   0x17c  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x6000'c219    0xd0  Code  Gb  queue.o [1]
+xQueueGetMutexHolder    0x6000'c081    0x1c  Code  Gb  queue.o [1]
+xQueueGiveFromISR       0x6000'c2e9    0xb0  Code  Gb  queue.o [1]
+xQueueReceive           0x6000'c399   0x154  Code  Gb  queue.o [1]
+xQueueRegistry          0x2000'5544    0x40  Data  Gb  queue.o [1]
+xQueueSemaphoreTake     0x6000'c4ed   0x192  Code  Gb  queue.o [1]
+xSchedulerRunning       0x2000'56b8     0x4  Data  Lc  tasks.o [1]
+xStart                  0x2000'551c     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x2000'5698    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x6000'b885    0x7e  Code  Gb  tasks.o [1]
+xTaskCreate             0x6000'b1c1    0x64  Code  Gb  tasks.o [1]
+xTaskGetCurrentTaskHandle
+                        0x6000'ba0d     0x8  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x6000'ba15    0x20  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x6000'b545     0x8  Code  Gb  tasks.o [1]
+xTaskGetTickCountFromISR
+                        0x6000'b54d     0xe  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x6000'b561    0xdc  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x6000'bad1    0xac  Code  Gb  tasks.o [1]
+xTaskPriorityInherit    0x6000'ba35    0x96  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x6000'b765    0x7c  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x6000'b463    0xe2  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x2000'5680    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x2000'56b0     0x4  Data  Lc  tasks.o [1]
+xTimerCreateTimerTask   0x6000'ee75    0x46  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x6000'eebb    0x64  Code  Gb  timers.o [1]
+xTimerPendFunctionCallFromISR
+                        0x6000'f207    0x22  Code  Gb  timers.o [1]
+xTimerQueue             0x2000'5708     0x4  Data  Lc  timers.o [1]
+xTimerTaskHandle        0x2000'570c     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x2000'56c0     0x4  Data  Lc  tasks.o [1]
+zero_copy_free          0x6000'd23b    0x1a  Code  Gb  cust_api_stack_offload.o [1]
+zero_copy_free_queue    0x2000'01b4     0xc  Data  Gb  cust_api_stack_offload.o [1]
+
+
+[1] = C:\RT1050\SDK\SDK_2.4.0_EVKB-IMXRT1050\boards\evkbimxrt1050\wifi_qca_examples\qca_demo\iar\flexspi_nor_debug\obj
+[2] = dl7M_tln.a
+[3] = m7M_tlv.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  76 067 bytes of readonly  code memory
+  12 745 bytes of readonly  data memory
+  23 843 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
